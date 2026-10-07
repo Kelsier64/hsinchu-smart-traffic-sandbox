@@ -1,0 +1,22 @@
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Research downloads and caches; keep source provenance
+/data/research/*
+!/data/research/baseline-source-manifest.json
+/freeway-index.html
+/official-rules-*.pdf
+/official-rules.txt
+
+# Generated local output
+*.log
+/tmp/
+/output/

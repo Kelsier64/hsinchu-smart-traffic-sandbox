@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://tisvcloud.freeway.gov.tw/history/TDCS/M04A/M04A_20260827.tar.gz",
+    "file": "M04A_20260827.tar.gz",
+    "bytes": 4096993,
+    "sha256": "d0dad1823d792da5f0d4dc8ef75709df201187eef9cf68543361b21e53b90dff",
+    "checked_at": "2026-10-07T03:56:25.645042+00:00"
+  },
+  {
+    "url": "https://tisvcloud.freeway.gov.tw/history/TDCS/M04A/M04A_20260828.tar.gz",
+    "file": "M04A_20260828.tar.gz",
+    "bytes": 4113100,
+    "sha256": "1ab6f367e5450177d256d9d518908304f8b37b97e2b62c39e8a9e4c3b171b5fc",
+    "checked_at": "2026-10-07T03:56:26.331410+00:00"
+  },
+  {
+    "url": "https://tisvcloud.freeway.gov.tw/history/TDCS/M04A/M04A_20260831.tar.gz",
+    "file": "M04A_20260831.tar.gz",
+    "bytes": 4090411,
+    "sha256": "3775211080b53c5f0dd9097b34f6f67513e1a94a492fc7aef6b698b2b7177ec9",
+    "checked_at": "2026-10-07T03:56:26.850700+00:00"
+  },
+  {
+    "url": "https://tisvcloud.freeway.gov.tw/history/TDCS/M04A/M04A_20260901.tar.gz",
+    "file": "M04A_20260901.tar.gz",
+    "bytes": 4098622,
+    "sha256": "3fe109dedad0fb314c964e1c54a6cbede006f4fb20eb79ad66bbffcf1771eb74",
+    "checked_at": "2026-10-07T03:56:27.302988+00:00"
+  },
+  {
+    "url": "https://tisvcloud.freeway.gov.tw/history/TDCS/M04A/M04A_20260902.tar.gz",
+    "file": "M04A_20260902.tar.gz",
+    "bytes": 4095158,
+    "sha256": "31337c70aeecbd9dfa33ee40627b0264cc642f6f03fa8c01979dfc32d4892d13",
+    "checked_at": "2026-10-07T03:56:27.778597+00:00"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "source": "交通部高速公路局「交通資料庫」M04A",
+  "scope": "國道1號門架公里數85.0–100.0之內的相鄰門架配對，小客車31；非市區路網",
+  "archive_csv_members": {
+    "M04A_20260827.tar.gz": 288,
+    "M04A_20260828.tar.gz": 288,
+    "M04A_20260831.tar.gz": 288,
+    "M04A_20260901.tar.gz": 288,
+    "M04A_20260902.tar.gz": 288
+  },
+  "rows": 8640,
+  "invalid_rows": 0,
+  "links": [
+    "01F0880S>01F0928S",
+    "01F0928N>01F0880N",
+    "01F0928S>01F0950S",
+    "01F0950S>01F0980S",
+    "01F0956N>01F0928N",
+    "01F0979N>01F0956N"
+  ],
+  "observed_rows_per_day": {
+    "20260827": 1728,
+    "20260828": 1728,
+    "20260831": 1728,
+    "20260901": 1728,
+    "20260902": 1728
+  },
+  "train_dates": [
+    "20260827",
+    "20260828",
+    "20260831"
+  ],
+  "validation_date": "20260901",
+  "test_date": "20260902",
+  "historical_profile": "training dates mean per link / five-minute slot; no test fit",
+  "timing": "finalized interval-start timestamps converted to interval end; publication delay assumed zero; updated data may differ from real-time vintage",
+  "caveats": [
+    "five weekdays only",
+    "one test date; not representative",
+    "no city-road transfer claim",
+    "no AI/model improvement claim",
+    "no intervention/capacity simulation",
+    "unweighted paired-observation metrics; links have unequal length"
+  ]
+}
