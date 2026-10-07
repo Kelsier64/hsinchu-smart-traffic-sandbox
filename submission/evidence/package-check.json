@@ -1,8 +1,8 @@
 {
   "status": "passed within stated scope",
   "pdf_pages": 6,
-  "pdf_bytes": 645127,
-  "supplement_bytes": 2119788,
+  "pdf_bytes": 639422,
+  "supplement_bytes": 2119787,
   "supplement_file_count": 61,
   "existing_source_hashes_checked": 23,
   "canonical_metric_strings": "all 12 MAE/RMSE/n checked against CSV",
@@ -20,7 +20,7 @@
     "formal participant submission"
   ],
   "artifacts": {
-    "proposal.pdf": "f3ec1558e438af4c2013f6030c3621a753269f31d0dc12dc44ef6de4a8aaf9da",
-    "supplement.zip": "afa0951fe7fbc791b0bb28ca6daa57a719665a7f5be0b6e19eb7f6af886281cc"
+    "proposal.pdf": "b9ac594ffbecae3f38c1e715a3aa1ac525bea08ff8bae121f3fd121b3a0d3773",
+    "supplement.zip": "48332bbd62a35b01c99b5666b8b9a1167d16da9a2960af1abb234f04055c5b3e"
   }
 }

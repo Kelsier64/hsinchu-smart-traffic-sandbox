@@ -163,8 +163,8 @@ n為評估筆數。MAE為平均絕對誤差，RMSE為均方根誤差。通勤時
 
 ## 七、其他有助於審查之補充資料
 
-補充資料包含離線回放程式、觀測與逐筆預測CSV、基準分析與容量篩選程式、測試、來源紀錄、操作腳本及驗證報告。圖表與表格均可由保存資料重建。
+本案提供線上互動Demo，可選擇路段、方向、日期與通勤時段，切換15／30分鐘預測，查看旅行時間曲線及預測誤差。
 
-[專案原始碼與完整研究資料](https://github.com/Kelsier64/hsinchu-smart-traffic-sandbox)提供查閱；精簡補充包省略全國原始壓縮檔，並保留下載來源與雜湊值。
+展示使用國道1號六個有向門架配對、五個工作日，共8,640筆觀測。9月2日提供統計基準測試預測，其他日期提供觀測回放。
 
-操作方式：在專案根目錄執行python scripts/serve_demo.py，再開啟http://127.0.0.1:8765/demo/。介面使用本地公開資料，可在無API金鑰的環境展示。
+[線上Demo](https://kelsier64.github.io/hsinchu-smart-traffic-demo/demo/)可直接操作；[作品展示repo](https://github.com/Kelsier64/hsinchu-smart-traffic-demo)提供初選報告、Demo程式、必要CSV與本地執行說明。

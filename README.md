@@ -26,6 +26,8 @@ python scripts/serve_demo.py
 
 ## 文件與送件交接
 
+[精簡展示repo](https://github.com/Kelsier64/hsinchu-smart-traffic-demo)提供報告、Demo及必要CSV；[線上Demo](https://kelsier64.github.io/hsinchu-smart-traffic-demo/demo/)可直接操作。
+
 - [主提案來源](initial-proposal-draft.md)與[排版PDF](submission/proposal.pdf)：官方附錄七章、狀態、真實結果圖、依賴、里程碑與AI揭露。
 - [官方規則查核](submission/requirements-check.md)、[實際驗證報告](submission/validation-report.md)、[AI揭露](submission/ai-disclosure.md)、[本人必辦清單](submission/human-checklist.md)。
 - [容量演算法規格](submission/capacity-spec.md)、[精簡補充包](submission/supplement.zip)。
