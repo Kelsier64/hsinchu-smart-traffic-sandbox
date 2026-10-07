@@ -4,3 +4,7 @@
 /freeway-index.html -text
 *.pdf binary
 *.tar.gz binary
+/submission/evidence/** -text -whitespace
+*.png binary
+*.jpg binary
+*.zip binary

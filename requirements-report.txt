@@ -1,0 +1,6 @@
+# Optional dependencies for figures/PDF; replay server uses only Python stdlib.
+-r requirements.txt
+matplotlib
+reportlab
+pypdf
+Pillow

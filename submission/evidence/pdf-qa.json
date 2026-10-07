@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "pages": 9,
+  "font_embedding": {
+    "/Helvetica": false,
+    "/AAAAAA+MicrosoftJhengHeiRegular-0": true,
+    "/AAAAAB+MicrosoftJhengHeiRegular-0": true,
+    "/AAAAAC+MicrosoftJhengHeiRegular-0": true,
+    "/AAAAAD+MicrosoftJhengHeiRegular-0": true,
+    "/AAAAAA+DejaVuSans": true
+  },
+  "text_outside_safe_page_bounds": 0,
+  "nul_characters": 0,
+  "inequality_text": "B+Δ≤βC preserved",
+  "visual_review": "all nine final pages rendered and inspected by Codex agent, including corrected symbols; no clipping, overlapping tables/images observed"
+}

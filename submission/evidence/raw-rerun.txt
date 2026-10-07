@@ -1,0 +1,62 @@
+PASS: five saved archive hashes; original parser rerun; four CSV and audit match; independent audit passed.
+NOT redownloaded.
+{"horizon": 15, "selected_alpha": 0.75, "validation_mae": {"0": 15.82514619883041, "0.25": 13.492787524366472, "0.5": 11.814619883040935, "0.75": 11.30224171539961, "1": 12.189668615984404}}
+{"horizon": 30, "selected_alpha": 0.5, "validation_mae": {"0": 15.971631205673761, "0.25": 14.685628447596534, "0.5": 14.348601260835304, "0.75": 15.124852245862884, "1": 16.83274231678487}}
+{
+  "source": "交通部高速公路局「交通資料庫」M04A",
+  "scope": "國道1號門架公里數85.0–100.0之內的相鄰門架配對，小客車31；非市區路網",
+  "archive_csv_members": {
+    "M04A_20260827.tar.gz": 288,
+    "M04A_20260828.tar.gz": 288,
+    "M04A_20260831.tar.gz": 288,
+    "M04A_20260901.tar.gz": 288,
+    "M04A_20260902.tar.gz": 288
+  },
+  "rows": 8640,
+  "invalid_rows": 0,
+  "links": [
+    "01F0880S>01F0928S",
+    "01F0928N>01F0880N",
+    "01F0928S>01F0950S",
+    "01F0950S>01F0980S",
+    "01F0956N>01F0928N",
+    "01F0979N>01F0956N"
+  ],
+  "observed_rows_per_day": {
+    "20260827": 1728,
+    "20260828": 1728,
+    "20260831": 1728,
+    "20260901": 1728,
+    "20260902": 1728
+  },
+  "train_dates": [
+    "20260827",
+    "20260828",
+    "20260831"
+  ],
+  "validation_date": "20260901",
+  "test_date": "20260902",
+  "historical_profile": "training dates mean per link / five-minute slot; no test fit",
+  "timing": "finalized interval-start timestamps converted to interval end; publication delay assumed zero; updated data may differ from real-time vintage",
+  "caveats": [
+    "five weekdays only",
+    "one test date; not representative",
+    "no city-road transfer claim",
+    "no AI/model improvement claim",
+    "no intervention/capacity simulation",
+    "unweighted paired-observation metrics; links have unequal length"
+  ]
+}
+ horizon_minutes             model  period    n  mae_seconds  rmse_seconds  alpha
+              15       persistence all_day 1710     7.753801     19.990860    NaN
+              15       persistence commute  504    15.884921     30.595609    NaN
+              15        historical all_day 1710    18.096491     43.442656    NaN
+              15        historical commute  504    35.816138     58.809680    NaN
+              15 residual_baseline all_day 1710    10.553704     23.909796   0.75
+              15 residual_baseline commute  504    19.290509     32.612326   0.75
+              30       persistence all_day 1692    10.750000     28.499440    NaN
+              30       persistence commute  504    22.529762     44.045318    NaN
+              30        historical all_day 1692    18.271868     43.672709    NaN
+              30        historical commute  504    35.337963     58.270781    NaN
+              30 residual_baseline all_day 1692    13.964736     32.556792   0.50
+              30 residual_baseline commute  504    26.133267     44.425434   0.50

@@ -1,0 +1,25 @@
+{
+  "status": "passed within stated scope",
+  "pdf_pages": 9,
+  "pdf_bytes": 722213,
+  "supplement_bytes": 2127008,
+  "supplement_file_count": 61,
+  "existing_source_hashes_checked": 23,
+  "canonical_metric_strings": "all 12 MAE/RMSE/n checked against CSV",
+  "local_final_document_links": "all resolved",
+  "credential_pattern_scan": "no hits in allowlisted text; not a universal secret detector",
+  "personal_data_scope": "public aggregate traffic; no participant identities/eligibility proofs supplied",
+  "screenshots": "browser tested and displayed, file saving EPERM; no delivered screenshot files",
+  "submission_ready": false,
+  "remaining_blockers": [
+    "team details",
+    "student eligibility proof",
+    "portal availability/deadline/fields",
+    "AI core-code applicability and human verification",
+    "formal participant submission"
+  ],
+  "artifacts": {
+    "proposal.pdf": "d962be5fc95ac6fc5f2a847b993d2c2fecb61dd1caa6a57e002948461aff55d8",
+    "supplement.zip": "97a8fb649aa0bd09a4c1a35119183adeaf3cca41823019925ec79013b4bd30e4"
+  }
+}

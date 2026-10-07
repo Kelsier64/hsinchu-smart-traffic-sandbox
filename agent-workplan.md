@@ -4,7 +4,7 @@
 
 ## 共用輸入與不可變更規則
 
-先閱讀 `initial-proposal-draft.md`、`data-audit-and-baseline.md`、`data/baseline/audit.json`。既有成果僅為資料調查與統計基準；新功能不得標成已完成。不得把模擬、合成或其他城市資料當成新竹縣實測，也不得為追求漂亮指標偷用未來資料。
+先閱讀 `initial-proposal-draft.md`、`submission/validation-report.md`、`data-audit-and-baseline.md`、`data/baseline/audit.json`。本次已完成國道回放、加強稽核、原始保存檔重現及容量假設函式；後續工作包應沿用這些成果，不重新標成全部未完成。市區AI／模擬／分流成效未完成。不得把模擬、合成或其他城市資料當成新竹縣實測，也不得偷用未來資料。
 
 每份成果附：修改檔案、資料來源、執行方式、測試結果、限制、AI使用範圍與待人工決策。需要帳號或資料授權時明確列出依賴，不猜測金鑰、不在程式或文件寫入憑證。
 

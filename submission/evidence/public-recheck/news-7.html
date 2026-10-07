@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智慧沙盒創新計畫-智慧沙盒創新計劃</title>
+    <link rel="stylesheet" href="/css/smartsandbox/stylesheets/shared.css?v=20260818" />
+    <link rel="stylesheet" href="/css/smartsandbox/stylesheets/newscontent.css" />
+    <link href="/images/favicon.ico" rel="icon" type="image/x-icon">
+<link href="/lib/select2/css/select2.min.css?v=wqKC3W2sEKP79Gm05n9Ilgh3eFTm0Ve_ESM9-6oWhR4" rel="stylesheet" />
+<link href="/css/style.min.css?v=uDUALOzjpMlkgu1tT85EF-3TOnEiR9KBVzi6unVdavo" rel="stylesheet">
+
+<link href="/css/themes/base/all.css?v=n53eyjiTe1TjXlQ4ih7pd56aT8Kd9qbrAFGWcL2rGAg" rel="stylesheet" />
+<link href="/lib/air-datepicker/css/datepicker.css?v=dHNwL8JBtmG32ZkJOGsWz3FhpwzBuR_UCXAPGvKPrlY" rel="stylesheet" />
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/js/antiforgery.js?v=Ayw2_dKd6P68ZiQSFxzkvuoyHehoxhhLZV_fFhwrxKo"></script>
+<script src="/lib/vue/vue.js"></script>
+<script src="/Scripts/jquery.form.min.js"></script>
+<script src="/Scripts/O_PushMsg.min.js"></script>
+<script src="/Scripts/jQuery.print.min.js"></script>
+<script src="/lib/select2/js/select2.js"></script>
+<script src="/Scripts/jquery-ui-1.12.1.min.js"></script>
+<script src="/lib/air-datepicker/js/datepicker.js"></script>
+<script src="/Scripts/datepicker.zh-tw.js"></script>
+<script src="/Scripts/jquery.cookie.js"></script>
+<script src="/Scripts/Loading.min.js"></script>
+<script src="/lib/jquery-validate/jquery.validate.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+<script src="/Scripts/additional-methods.min.js"></script>
+<script src="/Scripts/jTable.min.js"></script>
+<script src="/Scripts/noa.min.js"></script>
+
+<script src="/Scripts/JUtil.min.js"></script>
+<script src="/Scripts/ChecIdentity.min.js"></script>
+<script src="/Scripts/CheckFormHeader.min.js?v=ZtqqwiFUTXaXXan0Zop3ULM4Err3bmEDgVHfx6yI2MI"></script>
+<script src="/lib/jquery-validate/localization/messages_zh_TW.min.js"></script>
+
+<script src="/lib/jqCloud/jqcloud.min.js"></script>
+<script src="/js/index.bundle.js"></script>
+
+
+
+
+<!--[if lt IE 9]>
+      <script src="~/Scripts/html5-3.6-respond-1.1.0.min.js"></script>
+      <![endif]-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KX7LBKRGS6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-KX7LBKRGS6');
+    </script>
+
+    
+
+</head>
+<body data-js="false" class="page">
+    <!-- 跳至主要內容 -->
+    <a href="#main-content" class="skip-link">跳至主要內容</a>
+    <noscript>您的瀏覽器似乎不支援 JavaScript 語法，但沒關係，這並不會影響到內容的陳述。如需要選擇適合您的字級大小，可利用鍵盤 Ctrl + (+)放大 (-)縮小。如需要回到上一頁，可使用瀏覽器提供的 Alt + 左方向鍵(←)。如需要列印，可利用鍵盤 Ctrl + p 使用瀏覽器提供的列印功能。</noscript>
+
+    <div class="lo-layer" id="popuper" :class="{'is-active': list.length > 0}">
+        <popuper v-for="popuper in list" :obj="popuper" :key="popuper.id" v-on:evt="rmCt()"></popuper>
+    </div>
+
+    <!--判斷是否使用js用的程式區段-->
+    <script>
+        document.body.setAttribute("data-js", "true");
+    </script>
+    <!--判斷是否使用js用的程式區段-->
+
+    <div class="for_accessibility">
+        <a href="#Accesskey_C" title="跳到主要內容區塊">跳到主要內容區塊</a>
+    </div>
+    <noscript>
+        您的瀏覽器似乎不支援 JavaScript 語法，但沒關係，這並不會影響到內容的陳述。如需要選擇適合您的字級大小，可利用鍵盤 Ctrl + (+)放大 (-)縮小。如需要回到上一頁，可使用瀏覽器提供的 Alt + 左方向鍵(←)。如需要列印，可利用鍵盤
+        Ctrl + p 使用瀏覽器提供的列印功能。
+    </noscript>
+    <!-- ── 頂部 Banner + 主選單 ── -->
+    <div class="nav-banner">
+      <a href="#Accesskey_U" id="Accesskey_U" accesskey="U" class="accesskey accesskey--u" title="上方功能區塊，此區塊呈現網站主選單">:::</a>
+      <img
+        src="/css/smartsandbox/images/navbanner.png"
+        alt=""
+        class="nb-bg"
+      />
+      <a href="/home/index.html">
+          <img src="/css/smartsandbox/images/smartsand_logo.png"  alt="智慧沙盒創新計畫"  class="nb-logo"  />
+      </a>
+      <nav>
+        <button class="nav-hamburger" aria-label="選單">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li>
+            <a href="/home/index.html">首頁</a>
+          </li>
+          <li class="has-dropdown">
+            <a href="/home/pagesmartsand.html">關於智慧沙盒</a>
+            <div class="dropdown">
+              <a href="/home/pagesmartsand.html#sec-intro">計畫介紹</a>
+              <a href="/home/pagesmartsand.html#sec-brief">活動簡章</a>
+              <a href="/home/pagesmartsand.html#sec-schedule">重要時程</a>
+              <a href="/home/pagesmartsand.html#sec-theme">競賽主題</a>
+              <a href="/home/pagesmartsand.html#sec-score">評分標準</a>
+              <a href="/home/pagesmartsand.html#sec-faq">常見問答</a>
+            </div>
+          </li>
+          <li><a href="/home/pagewishpage.html">全民許願池</a></li>
+          <li><a href="/home/pagehowtoplay.html">如何玩沙盒</a></li>
+          <li><a href="/home/pagenews.html" style="color: var(--accent-blue)">最新消息</a></li>
+          <li><a href="/home/pagemembersarea.html">會員專區</a></li>
+          <!-- <li><a href="/home/pagelogin.html" class="nav-btn">我要提案 →</a></li> -->
+          <li>
+            <a href="/home/pagegoform.html" class="nav-btn" id="nav-cta">我要提案 →</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!--主要區塊 start-->
+    <span id="main-content" tabindex="-1"></span>
+    <div class="accesskey-c-holder">
+        <a href="#Accesskey_C" id="Accesskey_C" accesskey="C" class="accesskey accesskey--c" title="中央內容區塊，此區塊呈現網頁主要內容">:::</a>
+    </div>
+    
+
+<!-- 工具列 -->
+<div class="nc-toolbar-bar">
+    <div class="nc-toolbar">
+        <a href="/home/pagenews.html" class="nc-back">
+            <span class="nc-back-icon">
+                <img src="/css/smartsandbox/images/svg/arrow_left.svg" alt="" />
+            </span>
+            返回最新消息
+        </a>
+    </div>
+</div>
+
+<!-- ── 頁面主體 ── -->
+<div class="nc-wrap">
+    <!-- 文章主體 -->
+    <article class="nc-article">
+        <div class="nc-meta" id="nc-meta">115-08-21</div>
+        <h1 class="nc-title" id="nc-title">
+            智慧沙盒解題徵件今日起重磅登場&#xFF01;
+        </h1>
+
+        <!-- 封面圖 placeholder -->
+        <div class="nc-cover"></div>
+
+        <!-- 內文 -->
+        <div class="nc-body" id="nc-body">
+            <p>你有技術與想法，卻苦無真正的城市場域驗證嗎？</p>
+
+<p>這不是一場只留在企劃書裡的比賽，而是讓你的 AI 與大數據技術真正落地城市的絕佳舞台！</p>
+
+<p>三大組別實戰獎勵：<br>
+▸ 學生組／社會組：實力解題直接抱走最高 10 萬元金獎，總獎金 36 萬等你拿！<br>
+▸ 企業組：獲得縣府官方參與證明，助攻 ESG／CSR 永續報告，並享有地方型 SBIR 審查加分！<br>
+💡 選用第一階段全民許願的熱門點子解題，總分直接最多外加 5 分！</p>
+
+<p>入圍決賽還能獲得產官學專家與地方實務導師對接輔導！告別紙上談兵，現在就組隊來秀出你的科技硬實力！<br>
+<br>
+官方FB粉專：<a href="https://www.facebook.com/DigitalAffairsDepartment/" title="前往「得獎名單揭曉！點子投稿及投票抽獎名單正式公告」相關連結：www.facebook.com/DigitalAffairsDepartment/">https://www.facebook.com/DigitalAffairsDepartment/</a></p>
+
+<p>#新竹縣政府 #新竹縣政府數位發展處 #智慧沙盒創新計畫 #智慧城市 #全民提案</p>
+
+<p>&nbsp;</p>
+
+        </div>
+
+        <!-- 附件 -->
+        
+    <div class="md download pic">
+        <div class="caption">相關圖片</div>
+        <div class="content">
+            <ul>
+                    <li class="jpg">
+  
+                        <div class="ct">
+                            <span style="background-image:url(https://ews-service.hsinchu.gov.tw/001/Upload/relfile/106/7/6c5a16ab-8b67-4588-87bb-f1e1f6ab8b81.jpg)">
+                                <a href="https://ews-service.hsinchu.gov.tw/001/Upload/relfile/106/7/6c5a16ab-8b67-4588-87bb-f1e1f6ab8b81.jpg" title="messageImage_1787302317560（另開新視窗）" target="_blank" rel="noopener noreferrer">
+                                    <p>messageImage_1787302317560.jpg (381 KB)</p>
+                                </a>
+                            </span>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    </article>
+</div>
+
+<script>
+    //無障礙 HM1240404E：伺服器端直出的內文，純網址連結補上 title 說明前往目的（與 pagenewscontent.js 邏輯一致）
+    (function () {
+        var body = document.getElementById("nc-body");
+        if (!body) return;
+        var newsTitle = ((document.getElementById("nc-title") || {}).textContent || "").trim();
+        body.querySelectorAll("a").forEach(function (a) {
+            if (a.getAttribute("title")) return;
+            var text = (a.textContent || "").trim();
+            if (!/^(https?:\/\/|www\.)/i.test(text)) return;
+            var dest = "";
+            try {
+                var url = new URL(a.href, window.location.href);
+                dest = url.hostname + (url.pathname && url.pathname !== "/" ? url.pathname : "");
+            } catch (e) { }
+            var newWin = (a.getAttribute("target") || "").toLowerCase() === "_blank" ? "（另開新視窗）" : "";
+            a.setAttribute("title", "前往「" + (newsTitle || "本則消息") + "」相關連結" + (dest ? "：" + dest : "") + newWin);
+        });
+    })();
+</script>
+
+    <!--主要區塊 end-->
+    <!-- FOOTER -->
+    <footer class="footer-new">
+          <a href="#Accesskey_Z" id="Accesskey_Z" accesskey="Z" class="accesskey accesskey--z" title="下方功能區塊，此區塊呈現頁尾導覽連結">:::</a>
+      <!-- 裝飾星星 -->
+      <span class="ft-deco ft-deco--star1">✦</span>
+      <span class="ft-deco ft-deco--star2">✦</span>
+      <span class="ft-deco ft-deco--star3">✦</span>
+      <span class="ft-deco ft-deco--circle1"></span>
+      <!-- 主列 -->
+      <div class="ft-main">
+        <div class="ft-brand">
+          <img
+            src="/css/smartsandbox/images/smartsand_white_logo.png"
+            alt="智慧沙盒創新計畫"
+            class="ft-logo-img"
+          />
+        </div>
+        <nav class="ft-nav">
+          <a href="/home/pagesitemap.html">網站導覽</a>
+          <a href="/home/index.html">首頁</a>
+          <a href="/home/pagesmartsand.html">關於智慧沙盒</a>
+          <a href="/home/pagewishpage.html">全民許願池</a>
+          <a href="/home/pagehowtoplay.html">如何玩沙盒</a>
+          <a href="/home/pagenews.html">最新消息</a>
+          <a href="/home/pagemembersarea.html">會員專區</a>
+          <a href="/home/pagelogin.html">我要提案</a>
+        </nav>
+      </div>
+      <!-- 分隔線 -->
+      <div class="ft-divider"></div>
+      <!-- 底列 -->
+      <div class="ft-bottom">
+        <div class="ft-bottom-left">
+          <span>&copy; 2026 智慧創新沙盒</span>
+          <span>智慧沙盒創新計畫徵件活動</span>
+        </div>
+        <a href="https://accessibility.moda.gov.tw/Applications/Detail?category=20260714171946" title="無障礙網站">
+            <img src="/Images/accessibility-A.png" border="0" width="88" height="31" alt="通過A無障礙網頁檢測" />
+        </a>
+      </div>
+    </footer>
+    <script>
+      (function () {
+        var btn = document.querySelector(".nav-hamburger");
+        if (!btn) return;
+        var nav = btn.closest("nav");
+        var links = nav.querySelector(".nav-links");
+        function closeMenu() {
+          links.classList.remove("open");
+          nav.classList.remove("nav-open");
+          var openItem = links.querySelector(".has-dropdown.dropdown-open");
+          if (openItem) openItem.classList.remove("dropdown-open");
+        }
+
+        btn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          links.classList.toggle("open");
+          nav.classList.toggle("nav-open");
+        });
+
+        // 手機版：點擊「關於智慧沙盒」展開/收合下拉選單，而非直接跳轉
+        var dropdownToggle = links.querySelector(".has-dropdown > a");
+        var dropdownItem =
+          dropdownToggle && dropdownToggle.closest(".has-dropdown");
+        if (dropdownToggle && dropdownItem) {
+          dropdownToggle.addEventListener("click", function (e) {
+            if (getComputedStyle(btn).display !== "none") {
+              e.preventDefault();
+              dropdownItem.classList.toggle("dropdown-open");
+            }
+          });
+
+          // 點擊下拉選單內的連結後，收起整個手機選單
+          dropdownItem.querySelectorAll(".dropdown a").forEach(function (a) {
+            a.addEventListener("click", closeMenu);
+          });
+        }
+
+        document.addEventListener("click", function (e) {
+          if (!nav.contains(e.target) && links.classList.contains("open")) {
+            closeMenu();
+          }
+        });
+      })();
+    </script>
+    <!-- loading start-->
+    <div id="divProgress" style="text-align:center; display: none; position: fixed; top: 50%;  left: 50%;">
+        <img src="/Images/loading.gif" alt="讀取中" />
+        <br />
+        <font color="#1B3563">資料處理中</font>
+    </div>
+    <div id="divMaskFrame" style="background-color: #F2F4F7; display: none; left: 0px; position: absolute; top: 0px;">
+    </div>
+
+    <!-- loading end -->
+
+
+    <script>
+        $("form").submit(function (e) {
+            if ($(this).valid() === true) {
+                ShowProgressBar();
+            }
+        });
+
+        function ClearForm(target) {
+            $(target).clearForm();
+            $(target).find('select').val(this.$('option').val()).trigger('change');
+            $(target).find('select option[selected]').removeAttr("selected");
+            //$(target).find('select[name="FileFormat"]').val('xlsx');
+        };
+    </script>
+    
+    <script src="/css/smartsandbox/js/stage-cta.js?v=2026080301"></script>
+    
+    <!-- FB 懸浮快速連結 -->
+    <a
+      href="https://www.facebook.com/DigitalAffairsDepartment"
+      class="fb-quicklink"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="前往數位發展部 Facebook 粉絲專頁"
+    >
+      <img src="../css/smartsandbox/images/fbquicklink.png?v=20260629" alt="" />
+    </a>
+</body>
+</html>
