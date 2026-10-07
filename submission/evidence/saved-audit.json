@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "scope": "saved CSV independently recomputed",
+  "rows": 8640,
+  "validation_selection": {
+    "15": {
+      "selected_alpha": 0.75,
+      "validation_mae": {
+        "0": 15.82514619883041,
+        "0.25": 13.492787524366472,
+        "0.5": 11.814619883040935,
+        "0.75": 11.30224171539961,
+        "1": 12.189668615984404
+      }
+    },
+    "30": {
+      "selected_alpha": 0.5,
+      "validation_mae": {
+        "0": 15.971631205673761,
+        "0.25": 14.685628447596534,
+        "0.5": 14.348601260835304,
+        "0.75": 15.124852245862884,
+        "1": 16.83274231678487
+      }
+    }
+  },
+  "availability": "unknown; finalized data, assumed zero delay, no live claim",
+  "hashes": {
+    "audit.json": "3d04c3979f3b188cda38f693bab928c1e049ea7a2c6241f695900146c781745f",
+    "metrics.csv": "22535642d0bc152e14c25e079ee5f3e1d9d23be2952874ebcfb5671bf2bcbc38",
+    "predictions-15min.csv": "54ab89bbd820a018ec959fa84593423913651311d5e2298158b9dbd43393dc65",
+    "predictions-30min.csv": "6df132bc246e9844481aa162ddf1f730a40a845d85d5f12280c40c8f6aae447c",
+    "selected-observations.csv": "54ec1063bfcde6685e102d2db5e49ef7293d375e65b849d1933b4d5409326d1b"
+  }
+}

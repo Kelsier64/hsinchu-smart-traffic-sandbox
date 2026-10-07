@@ -1,0 +1,51 @@
+[
+  {
+    "url": "https://developers.google.com/maps/documentation/routes/config_trade_offs",
+    "status": 200,
+    "final_url": "https://developers.google.com/maps/documentation/routes/config_trade_offs"
+  },
+  {
+    "url": "https://smartsandbox.hsinchu.gov.tw/home/pagehowtoplay.html",
+    "status": 200,
+    "final_url": "https://smartsandbox.hsinchu.gov.tw/home/pagehowtoplay.html"
+  },
+  {
+    "url": "https://smartsandbox.hsinchu.gov.tw/home/pagenews.html",
+    "status": 200,
+    "final_url": "https://smartsandbox.hsinchu.gov.tw/home/pagenews.html"
+  },
+  {
+    "url": "https://smartsandbox.hsinchu.gov.tw/home/pagenewscontent.html?NewsSN=7",
+    "status": 200,
+    "final_url": "https://smartsandbox.hsinchu.gov.tw/home/pagenewscontent.html?NewsSN=7"
+  },
+  {
+    "url": "https://smartsandbox.hsinchu.gov.tw/home/pageproposalcontent.html?ProposalSN=173",
+    "status": 200,
+    "final_url": "https://smartsandbox.hsinchu.gov.tw/home/pageproposalcontent.html?ProposalSN=173"
+  },
+  {
+    "url": "https://smartsandbox.hsinchu.gov.tw/home/pagesmartsand.html",
+    "status": 200,
+    "final_url": "https://smartsandbox.hsinchu.gov.tw/home/pagesmartsand.html"
+  },
+  {
+    "url": "https://sumo.dlr.de/docs/Tutorials/Calibration/San_Pablo_Dam.html",
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "url": "https://tdx.transportdata.tw/webapi/File/Swagger/V3/7f07d940-91a4-495d-9465-1c9df89d709c",
+    "status": 200,
+    "final_url": "https://tdx.transportdata.tw/webapi/File/Swagger/V3/7f07d940-91a4-495d-9465-1c9df89d709c"
+  },
+  {
+    "url": "https://tisvcloud.freeway.gov.tw/documents/TDCS%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Av41b.pdf",
+    "status": 200,
+    "final_url": "https://tisvcloud.freeway.gov.tw/documents/TDCS%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Av41b.pdf"
+  },
+  {
+    "url": "https://tisvcloud.freeway.gov.tw/history/TDCS/M04A/",
+    "status": 200,
+    "final_url": "https://tisvcloud.freeway.gov.tw/history/TDCS/M04A/"
+  }
+]

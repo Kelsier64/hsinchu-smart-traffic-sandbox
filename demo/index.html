@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>竹行先知｜國道歷史回放</title><link rel="stylesheet" href="/demo/style.css"></head>
+<body><main>
+<header><div class="eyebrow">竹行先知 · 管理者研究工作台</div><h1>先看證據，再談分流。</h1><p>國道歷史資料離線回放 <span class="badge">已保存真實資料</span></p></header>
+<section class="notice"><strong>展示範圍</strong>：國1六個有向門架配對、小客車31，2026/8/27–9/2共五個工作日。逐筆預測僅有9/2測試日。這是統計基準，尚無市區AI預警或分流實證。</section>
+<section class="controls" aria-label="回放控制">
+<label>路段與方向<select id="link"></select></label>
+<label>預測尺度<select id="horizon"><option value="15">15 分鐘</option><option value="30">30 分鐘</option></select></label>
+<label>資料日期<select id="date"></select></label>
+<label>評估範圍<select id="period"><option value="all_day">全日</option><option value="commute">通勤 07:00–09:55 / 16:00–19:55</option><option value="morning">早段 07:00–09:55</option><option value="evening">晚段 16:00–19:55</option></select></label>
+<label>名義決策時刻<select id="moment"></select></label>
+<button id="next" type="button">下一筆 →</button>
+</section>
+<section class="card"><h2>時點查核</h2><div id="detail" aria-live="polite"></div><label class="reveal"><input type="checkbox" id="reveal">揭露事後實際值（評估用途，決策當時未知）</label></section>
+<section class="card"><h2>旅行時間比較 <small>秒</small></h2><p id="chart-note"></p><div class="legend"><span class="actual">● 實際值</span><span class="persist">● 維持目前值</span><span class="historical">● 歷史同時段</span><span class="residual">● 殘差校正</span></div><svg id="chart" role="img" aria-label="旅行時間比較曲線" viewBox="0 0 1000 310"></svg><p class="muted">橫軸：目標區間結束（Asia/Taipei）。直線標示所選目標區間。未揭露時，只呈現名義決策時刻以前結束的實際值。</p></section>
+<section class="card"><h2>所選範圍的事後誤差</h2><p>各方法使用同一批樣本；MAE / RMSE 均為秒，按路段與時點等權。全日平均誤差小，不代表能提前抓到壅塞形成。</p><table><thead><tr><th>方法</th><th>樣本數</th><th>MAE</th><th>RMSE</th></tr></thead><tbody id="metrics"></tbody></table></section>
+<footer><p>來源：交通部高速公路局「交通資料庫」M04A；更新資料時間戳記為五分鐘區間起點。名義決策 = 區間起點 + 5分鐘；目標結束 = 決策 + 15／30分鐘。假設區間結束即可取得觀測，真實發布延遲與收到時間未知，未提供即時新鮮度或信心百分比。</p><p>8/27、8/28、8/31建立歷史均值；9/1選校正係數；9/2測試。容量規則另以假設情境測試，未接入真實路網；民眾導航、推播與實地改道為後續規劃。</p><a href="https://tisvcloud.freeway.gov.tw/history/TDCS/M04A/">官方資料目錄</a></footer>
+<p id="status" role="status">讀取資料中…</p>
+</main><script src="/demo/app.js"></script></body></html>

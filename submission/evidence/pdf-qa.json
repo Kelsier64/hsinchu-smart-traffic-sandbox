@@ -1,0 +1,17 @@
+{
+  "edition": "2026-10-07 clean submission report",
+  "pdf_sha256": "b9ac594ffbecae3f38c1e715a3aa1ac525bea08ff8bae121f3fd121b3a0d3773",
+  "pages": 6,
+  "participant_details_checked": true,
+  "editorial_placeholders": false,
+  "non_link_annotations": [],
+  "missing_text_glyphs": false,
+  "embedded_fonts": {
+    "/AAAAAA+MicrosoftJhengHeiRegular-0": true,
+    "/AAAAAB+MicrosoftJhengHeiRegular-0": true,
+    "/AAAAAC+MicrosoftJhengHeiRegular-0": true,
+    "/AAAAAA+DejaVuSans": true
+  },
+  "out_of_bounds_text": [],
+  "visual_review": "all six latest Poppler page renders inspected; no blank pages, clipping, overlap or broken tables"
+}

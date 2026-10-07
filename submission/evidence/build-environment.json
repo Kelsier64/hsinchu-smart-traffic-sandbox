@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.2",
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0",
+    "Pillow": "12.3.0"
+  },
+  "font": "msjh.ttc",
+  "font_sha256": "1fd5fc7046e0eea753988ee06d1a5a731df68475614e2174fbba9b4800f392ac",
+  "canonical_source_sha256": "1b540e7f25cb5ba57b688558d8350e49b72fa77ba81439607a136c59d7c1cbc4",
+  "pdf_sha256": "b9ac594ffbecae3f38c1e715a3aa1ac525bea08ff8bae121f3fd121b3a0d3773",
+  "pages": 6
+}

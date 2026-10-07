@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "extracted supplemental ZIP; HTTP assets and independent CSV audit",
+  "http_statuses": {
+    "demo/": 200,
+    "demo/app.js": 200,
+    "demo/style.css": 200,
+    "data/baseline/predictions-15min.csv": 200,
+    "data/baseline/predictions-30min.csv": 200,
+    "data/baseline/selected-observations.csv": 200,
+    ".git/config": 404
+  },
+  "audit_stdout": "PASS: saved results; dates, grid, training-only means, validation-only alpha, all predictions, labels, horizons, midnight, 12 metric rows.",
+  "raw_archives_included": false,
+  "requires_private_key": false
+}
