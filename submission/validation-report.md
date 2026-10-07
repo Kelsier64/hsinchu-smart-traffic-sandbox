@@ -16,7 +16,7 @@
 | `python -X utf8 scripts/check_public_sources.py` | 六項HTTP200，官方頁面與TDX OpenAPI另存hash；車種參照頁404。新manifest不取代舊研究manifest |
 | `python scripts/serve_demo.py --port 8766` | 本機伺服器實際啟動；桌面瀏覽器成功載入公開資料，主要控制可操作；標準啟動預設8765 |
 | 實際HTTP路由查核 | Demo、JS、15分CSV皆HTTP200；`.git/config`及非展示的交接文件HTTP404 |
-| `python scripts/build_submission.py`、Poppler `pdftoppm -r 90 -png` | 9頁PDF已產生，嵌入中文字型；全部頁面渲染並由agent檢視。真實曲線、12列指標來源與文字一致；這不是本人簽署／資格驗收 |
+| `python scripts/build_submission.py`、Poppler `pdftoppm -scale-to 1400 -png` | 新版6頁PDF已產生，補上杜凱朗的成員資料並移除編輯註解；中文字型與符號嵌入，全部頁面渲染檢視通過，無空白頁或截斷。圖表標示已改為中文，12列指標保持一致 |
 | `python scripts/package_submission.py` | ZIP完整性與容量通過；12列數字與主提案一致，本地文件引用存在；23份既有來源hash一致，允許清單文字未命中特定憑證模式；`evidence/package-check.json` |
 | `python scripts/smoke_supplement.py` | 解出補充ZIP後6個回放資源HTTP200、.git/config拒絕，保存CSV獨立稽核通過；`evidence/supplement-smoke.json` |
 
@@ -26,7 +26,9 @@
 
 工具畫面截圖已顯示於執行對話；嘗試寫入repo、Downloads及工具暫存均回EPERM，**尚未保存可交付截圖檔**。不把重畫介面當成真實截圖。PDF整合真實結果圖及操作說明；本人可用展示腳本另存截圖補充。桌面未做手機或外部使用者測試。
 
-## 失敗及處理
+## 開發過程的失敗及處理
+
+以下保留先前版本的處理紀錄；目前6頁報告的檢查結果見`evidence/pdf-qa.json`。
 
 - 預設沙盒的Git網路DNS失敗；取得授權環境後fetch成功，遠端新增c869b21來源封存，已快轉納入工作分支，無主分支改動。
 - 初次隔離重跑系統暫存寫入受限；改為repo的tmp子目錄，重跑通過，原資料未覆寫。

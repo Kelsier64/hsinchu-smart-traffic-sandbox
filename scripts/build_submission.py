@@ -15,6 +15,7 @@ os.environ.setdefault('MPLCONFIGDIR', str(ROOT / 'tmp/matplotlib-cache'))
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+from matplotlib import font_manager
 import pandas as pd
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT
@@ -28,17 +29,24 @@ from pypdf import PdfReader
 OUT = ROOT / 'submission'
 ASSETS = OUT / 'assets'
 ASSETS.mkdir(parents=True, exist_ok=True)
+font_path = os.environ.get('PROPOSAL_CJK_FONT', 'C:/Windows/Fonts/msjh.ttc')
+if not Path(font_path).is_file():
+    raise SystemExit('Set PROPOSAL_CJK_FONT to an embeddable Traditional Chinese TTF/TTC.')
+font_manager.fontManager.addfont(font_path)
+plt.rcParams['font.family'] = font_manager.FontProperties(fname=font_path).get_name()
+plt.rcParams['axes.unicode_minus'] = False
 models = ['persistence', 'historical', 'residual_baseline']
+model_labels = dict(zip(models, ['維持目前值', '歷史同時段', '殘差校正']))
 palette = ['#00857c', '#cf8535', '#8050b3']
 metrics = pd.read_csv(ROOT / 'data/baseline/metrics.csv')
 fig, axes = plt.subplots(1, 2, figsize=(10.5, 3.4), constrained_layout=True)
 for ax, horizon in zip(axes, [15, 30]):
     for i, model in enumerate(models):
         g = metrics[(metrics.horizon_minutes == horizon) & (metrics.model == model)].set_index('period')
-        ax.bar([i * .24, 1 + i * .24], g.loc[['all_day', 'commute'], 'mae_seconds'], width=.22, color=palette[i], label=model)
-    ax.set_xticks([.24, 1.24], ['All day', 'Commute'])
-    ax.set_ylabel('MAE (seconds)')
-    ax.set_title(f'{horizon} min | 2026-09-02 | 6 directed pairs')
+        ax.bar([i * .24, 1 + i * .24], g.loc[['all_day', 'commute'], 'mae_seconds'], width=.22, color=palette[i], label=model_labels[model])
+    ax.set_xticks([.24, 1.24], ['全日', '通勤時段'])
+    ax.set_ylabel('平均絕對誤差（秒）')
+    ax.set_title(f'{horizon}分鐘預測 | 2026-09-02 | 六個有向路段')
     ax.spines[['top', 'right']].set_visible(False)
     ax.set_axisbelow(True)
     ax.grid(axis='y', alpha=.18)
@@ -49,23 +57,20 @@ p = pd.read_csv(ROOT / 'data/baseline/predictions-15min.csv')
 p = p[p.link == '01F0880S>01F0928S']
 x = pd.to_datetime(p.target_interval_end)
 fig, ax = plt.subplots(figsize=(10.5, 3.7), constrained_layout=True)
-ax.plot(x, p.actual, color='#18334c', label='actual (retrospective)', linewidth=1.8)
+ax.plot(x, p.actual, color='#18334c', label='實際觀測', linewidth=1.8)
 for model, color in zip(models, palette):
-    ax.plot(x, p[model], color=color, label=model, linewidth=1.1)
+    ax.plot(x, p[model], color=color, label=model_labels[model], linewidth=1.1)
 import matplotlib.dates as mdates
 ax.xaxis.set_major_formatter(mdates.DateFormatter('%H:%M'))
-ax.set_ylabel('Travel time (seconds)')
-ax.set_xlabel('Target interval end | Asia/Taipei | last 00:00 is Sep 3')
-ax.set_title('01F0880S > 01F0928S | Sep 2, 2026 | 15 min | finalized M04A')
+ax.set_ylabel('旅行時間（秒）')
+ax.set_xlabel('目標區間結束時間（臺灣時間；末端00:00為9月3日）')
+ax.set_title('01F0880S > 01F0928S | 2026-09-02 | 15分鐘預測')
 ax.spines[['top', 'right']].set_visible(False)
 ax.grid(alpha=.18)
 ax.legend(fontsize=8, ncol=2)
 fig.savefig(ASSETS / 'baseline-curve.png', dpi=180)
 plt.close(fig)
 
-font_path = os.environ.get('PROPOSAL_CJK_FONT', 'C:/Windows/Fonts/msjh.ttc')
-if not Path(font_path).is_file():
-    raise SystemExit('Set PROPOSAL_CJK_FONT to an embeddable Traditional Chinese TTF/TTC.')
 pdfmetrics.registerFont(TTFont('CJK', font_path, subfontIndex=0))
 pdfmetrics.registerFont(TTFont('Symbols', str(Path(matplotlib.get_data_path()) / 'fonts/ttf/DejaVuSans.ttf')))
 pdfmetrics.registerFontFamily('CJK', normal='CJK', bold='CJK', italic='CJK', boldItalic='CJK')
@@ -116,7 +121,8 @@ while i < len(lines):
             ('TOPPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),7),
             ('LINEBELOW',(0,0),(-1,-1),.4,colors.HexColor('#cbdadf')),
         ]))
-        story.extend([table, Spacer(1, 10)])
+        table.spaceAfter = 10
+        story.append(table)
         continue
     image_match = re.fullmatch(r'!\[([^]]*)\]\(([^)]+)\)', line)
     if image_match:
@@ -130,7 +136,7 @@ while i < len(lines):
     elif line.startswith('# '):
         story.append(Paragraph(inline(line[2:]), styles['title']))
     elif line.startswith('## '):
-        if section:
+        if section in [2, 3, 4, 5]:
             story.append(PageBreak())
         section += 1
         story.append(Paragraph(inline(line[3:]), styles['h1']))
@@ -149,14 +155,14 @@ def footer(canvas, doc):
     canvas.line(46, 40, A4[0]-46, 40)
     canvas.setFont('CJK', 8)
     canvas.setFillColor(colors.HexColor('#526676'))
-    canvas.drawString(46, 26, '竹行先知 | 初選報告 | 2026-10-07 | 本人資料及確認待完成')
+    canvas.drawString(46, 26, '竹行先知 | 杜凱朗 | 國立臺灣大學 | 初選成果報告書')
     canvas.drawRightString(A4[0]-46, 26, str(doc.page))
     canvas.restoreState()
 
 
 pdf = OUT / 'proposal.pdf'
 SimpleDocTemplate(str(pdf), pagesize=A4, rightMargin=46, leftMargin=46, topMargin=44, bottomMargin=56,
-                  title='竹行先知：通勤壅塞預警與容量感知分流', author='團隊資料待本人填寫').build(story, onFirstPage=footer, onLaterPages=footer)
+                  title='竹行先知：通勤壅塞預警與容量感知分流', author='杜凱朗').build(story, onFirstPage=footer, onLaterPages=footer)
 reader = PdfReader(pdf)
 text = '\n'.join(page.extract_text() for page in reader.pages)
 assert '\x00' not in text, 'Missing/incorrectly mapped PDF text glyphs'

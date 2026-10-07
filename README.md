@@ -31,7 +31,7 @@ python scripts/serve_demo.py
 - [容量演算法規格](submission/capacity-spec.md)、[精簡補充包](submission/supplement.zip)。
 - [來源索引](OFFICIAL_SOURCES.md)、[資料研究](data-audit-and-baseline.md)、[早期研究及本次狀態更新](research-proposal-173.md)、[協作工作規格](agent-workplan.md)。
 
-公開截止仍是2026/10/7，精確時刻與登入欄位未確認，不能宣稱目前仍受理。**隊伍／在學資訊、報名狀態、核心程式AI界線、本人查核及正式提交仍阻擋無條件送件**。PDF／補充包不是已成功提交的證明。ZIP接受格式待登入確認。
+報告已填入隊名「竹行先知」與杜凱朗（國立臺灣大學生物機電工程學系一年級）的資料，移除待填欄位與編輯註解。報名、在學證明、AI規範確認與正式上傳由參賽者在平台完成；補充ZIP是否接受須依登入欄位確認。
 
 ## 重算與原始流程重現
 
@@ -53,7 +53,7 @@ python scripts/build_submission.py
 python scripts/package_submission.py
 ~~~
 
-Windows預設嵌入微軟正黑體；其他平台設定`PROPOSAL_CJK_FONT`為可嵌入繁體中文字型TTF／TTC。修改本人資料或AI揭露後，先同步主提案，再建置PDF並重新檢視分頁。
+Windows預設嵌入微軟正黑體；其他平台設定`PROPOSAL_CJK_FONT`為可嵌入繁體中文字型TTF／TTC。修改報告或AI揭露後，先同步主提案，再建置PDF並重新檢視分頁。
 
 ## 資料與限制
 

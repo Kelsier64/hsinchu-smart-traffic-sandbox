@@ -49,9 +49,10 @@ with zipfile.ZipFile(archive) as z:
     assert all(i.file_size <= 30_000_000 for i in z.infolist())
 reader = PdfReader(pdf)
 text = '\n'.join(p.extract_text() for p in reader.pages)
-blockers = ['team details', 'student eligibility proof', 'portal availability/deadline/fields',
+blockers = ['student eligibility proof', 'portal availability/deadline/fields',
             'AI core-code applicability and human verification', 'formal participant submission']
-assert '待本人' in text
+assert all(s in text for s in ['杜凱朗', '國立臺灣大學', '生物機電工程學系', '一年級'])
+assert not any(s in text for s in ['待本人', '待填', '【', '編輯註解'])
 import pandas as pd
 m = pd.read_csv(ROOT / 'data/baseline/metrics.csv')
 source = (ROOT / 'initial-proposal-draft.md').read_text(encoding='utf-8')
@@ -76,8 +77,9 @@ report = {'status':'passed within stated scope', 'pdf_pages':len(reader.pages),
           'canonical_metric_strings':'all 12 MAE/RMSE/n checked against CSV',
           'local_final_document_links':'all resolved',
           'credential_pattern_scan':'no hits in allowlisted text; not a universal secret detector',
-          'personal_data_scope':'public aggregate traffic; no participant identities/eligibility proofs supplied',
+          'personal_data_scope':'public aggregate traffic and user-supplied participant name/education; no identity numbers or eligibility proofs',
           'screenshots':'browser tested and displayed, file saving EPERM; no delivered screenshot files',
+          'report_prepared':True, 'report_has_editorial_placeholders':False,
           'submission_ready':False, 'remaining_blockers':blockers,
           'artifacts': {p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [pdf,archive]}}
 (OUT / 'evidence/package-check.json').write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding='utf-8')

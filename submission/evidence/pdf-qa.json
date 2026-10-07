@@ -1,16 +1,17 @@
 {
-  "status": "passed",
-  "pages": 9,
-  "font_embedding": {
-    "/Helvetica": false,
+  "edition": "2026-10-07 clean submission report",
+  "pdf_sha256": "f3ec1558e438af4c2013f6030c3621a753269f31d0dc12dc44ef6de4a8aaf9da",
+  "pages": 6,
+  "participant_details_checked": true,
+  "editorial_placeholders": false,
+  "non_link_annotations": [],
+  "missing_text_glyphs": false,
+  "embedded_fonts": {
     "/AAAAAA+MicrosoftJhengHeiRegular-0": true,
     "/AAAAAB+MicrosoftJhengHeiRegular-0": true,
     "/AAAAAC+MicrosoftJhengHeiRegular-0": true,
-    "/AAAAAD+MicrosoftJhengHeiRegular-0": true,
     "/AAAAAA+DejaVuSans": true
   },
-  "text_outside_safe_page_bounds": 0,
-  "nul_characters": 0,
-  "inequality_text": "B+Δ≤βC preserved",
-  "visual_review": "all nine final pages rendered and inspected by Codex agent, including corrected symbols; no clipping, overlapping tables/images observed"
+  "out_of_bounds_text": [],
+  "visual_review": "all six latest Poppler page renders inspected; no blank pages, clipping, overlap or broken tables"
 }
