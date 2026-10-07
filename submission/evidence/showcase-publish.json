@@ -1,0 +1,62 @@
+{
+  "repository": "https://github.com/Kelsier64/hsinchu-smart-traffic-demo",
+  "demo_url": "https://kelsier64.github.io/hsinchu-smart-traffic-demo/demo/",
+  "commit": "ff68dd24732e8cdee2629700556a27c97825f8cd",
+  "tracked_files": [
+    ".gitignore",
+    ".nojekyll",
+    "README.md",
+    "data/baseline/predictions-15min.csv",
+    "data/baseline/predictions-30min.csv",
+    "data/baseline/selected-observations.csv",
+    "demo/app.js",
+    "demo/index.html",
+    "demo/style.css",
+    "index.html",
+    "report/proposal.pdf",
+    "scripts/serve_demo.py"
+  ],
+  "public_assets_checked": [
+    {
+      "path": "index.html",
+      "http_status": 200,
+      "sha256": "d5f6d41858a15161386c9b42b5493456bc0e1fb19330d2dfb6a002b1bb3e3ea9"
+    },
+    {
+      "path": "demo/index.html",
+      "http_status": 200,
+      "sha256": "8167d86b1f407c6339e9b13f3fc5b43ac1c200cd759fa28a3423c13cde7d05d4"
+    },
+    {
+      "path": "demo/app.js",
+      "http_status": 200,
+      "sha256": "3a3bd4f08f6f75760abf8eeac062bdfca322f779f5c9c0b0f1f5cf657c0be957"
+    },
+    {
+      "path": "demo/style.css",
+      "http_status": 200,
+      "sha256": "8ef7c9970e19ee819d53332671cdab8e4b201ac2f8f09bac817ad258c17f9b7c"
+    },
+    {
+      "path": "data/baseline/selected-observations.csv",
+      "http_status": 200,
+      "sha256": "09471b394b32a6fe95046619994e469af7e0002f3ac197bef522bcb79d9bcd0c"
+    },
+    {
+      "path": "data/baseline/predictions-15min.csv",
+      "http_status": 200,
+      "sha256": "fec51ca172b11599327d786e2257d5e753a212fbcb72442bb6aeb2d4b62ebe5e"
+    },
+    {
+      "path": "data/baseline/predictions-30min.csv",
+      "http_status": 200,
+      "sha256": "cff995a5eaae62cac73168ed57cb50eb61e35453bdbb3f41a3562820ed93bbd1"
+    },
+    {
+      "path": "report/proposal.pdf",
+      "http_status": 200,
+      "sha256": "b9ac594ffbecae3f38c1e715a3aa1ac525bea08ff8bae121f3fd121b3a0d3773"
+    }
+  ],
+  "browser_check": "Public demo loaded 8640 observations; 30-minute commute selected; 84 samples, persistence MAE 32.62 and RMSE 48.89"
+}

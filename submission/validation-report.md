@@ -19,7 +19,7 @@
 | `python scripts/build_submission.py`、Poppler `pdftoppm -scale-to 1400 -png` | 新版6頁PDF已產生，補上杜凱朗的成員資料並移除編輯註解；中文字型與符號嵌入，全部頁面渲染檢視通過，無空白頁或截斷。圖表標示已改為中文，12列指標保持一致 |
 | `python scripts/package_submission.py` | ZIP完整性與容量通過；12列數字與主提案一致，本地文件引用存在；23份既有來源hash一致，允許清單文字未命中特定憑證模式；`evidence/package-check.json` |
 | `python scripts/smoke_supplement.py` | 解出補充ZIP後6個回放資源HTTP200、.git/config拒絕，保存CSV獨立稽核通過；`evidence/supplement-smoke.json` |
-| 精簡展示repo與GitHub Pages | 新repo僅12個檔案。公開首頁、Demo、JS、CSS、3份CSV及最新PDF共8項HTTP200，內容與本地逐位元一致；瀏覽器已確認8,640筆觀測及30分鐘通勤操作。紀錄見`evidence/showcase-publish.json` |
+| 精簡展示repo與GitHub Pages | 新repo僅12個檔案。公開首頁、Demo、JS、CSS、3份CSV及最新PDF共8項HTTP200，內容與已提交檔案逐位元一致；瀏覽器已確認8,640筆觀測及30分鐘通勤操作。紀錄見`evidence/showcase-publish.json` |
 
 ## 瀏覽器實測
 
