@@ -21,6 +21,7 @@
 - [AI agents 工作包與驗收](agent-workplan.md)
 - [實驗指標](data/baseline/metrics.csv)
 - [資料範圍與限制](data/baseline/audit.json)
+- [官方簡章、頁面與資料檔案索引](OFFICIAL_SOURCES.md)
 
 ## 重現基準
 
@@ -34,7 +35,7 @@ python scripts/traffic_baseline.py
 python scripts/verify_baseline.py
 ```
 
-下載器只取得已在官方目錄確認的五個公開彙整檔案，已存在的壓縮檔不重複下載。全國原始下載檔與官方網頁快取不納入 Git；來源 URL 與 SHA256 保存在 `data/research/baseline-source-manifest.json`。選取觀測與逐筆預測保存在 `data/baseline/`。
+下載器只取得已在官方目錄確認的五個公開彙整檔案，已存在的壓縮檔不重複下載。官方簡章、已下載的官方網頁、規格與原始彙整資料均納入 Git，詳見 [來源索引](OFFICIAL_SOURCES.md)。完整檔案清單與 SHA256 見 `data/research/official-source-manifest.json`；五日原始檔下載紀錄另見 `data/research/baseline-source-manifest.json`。選取觀測與逐筆預測保存在 `data/baseline/`。
 
 資料來源：交通部高速公路局「交通資料庫」[M04A](https://tisvcloud.freeway.gov.tw/history/TDCS/M04A/)。時間語意、事後修正、發布延遲假設與單日測試限制詳見研究文件。
 

@@ -1,0 +1,6 @@
+# Preserve source snapshots byte-for-byte so recorded SHA256 survives checkout.
+/data/research/** -text
+/official-rules.txt -text
+/freeway-index.html -text
+*.pdf binary
+*.tar.gz binary

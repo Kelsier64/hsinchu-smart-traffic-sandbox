@@ -1,0 +1,1367 @@
+[
+  {
+    "VDID": "VD-N1-S-71.450-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "71K+450",
+    "PositionLat": "24.8991199",
+    "PositionLon": "121.1456007"
+  },
+  {
+    "VDID": "VD-N1-S-73.010-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "73K+010",
+    "PositionLat": "24.8949947",
+    "PositionLon": "121.131097"
+  },
+  {
+    "VDID": "VD-N1-S-74.510-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "74K+510",
+    "PositionLat": "24.893162",
+    "PositionLon": "121.116663"
+  },
+  {
+    "VDID": "VD-N1-S-76.300-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "76K+300",
+    "PositionLat": "24.8907624",
+    "PositionLon": "121.0992863"
+  },
+  {
+    "VDID": "VD-N1-S-78.170-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "78K+170",
+    "PositionLat": "24.8847237",
+    "PositionLon": "121.0826253"
+  },
+  {
+    "VDID": "VD-N1-S-79.300-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "79K+300",
+    "PositionLat": "24.8813394",
+    "PositionLon": "121.0720181"
+  },
+  {
+    "VDID": "VD-N1-S-81.230-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "81K+230",
+    "PositionLat": "24.8761846",
+    "PositionLon": "121.0545843"
+  },
+  {
+    "VDID": "VD-N1-S-83.150-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "83K+150",
+    "PositionLat": "24.8769033",
+    "PositionLon": "121.0354041"
+  },
+  {
+    "VDID": "VD-N1-S-83-I-WS-1-湖口",
+    "RoadName": "國道1號",
+    "LocationMile": "83K+800",
+    "PositionLat": "24.8762038",
+    "PositionLon": "121.0286934"
+  },
+  {
+    "VDID": "VD-N1-S-83-O-NW-1-湖口",
+    "RoadName": "國道1號",
+    "LocationMile": "83K+800",
+    "PositionLat": "24.8766263",
+    "PositionLon": "121.0320742"
+  },
+  {
+    "VDID": "VD-N1-S-83-I-WS-21-湖口",
+    "RoadName": "國道1號",
+    "LocationMile": "83K+800",
+    "PositionLat": "24.8763937",
+    "PositionLon": "121.0291287"
+  },
+  {
+    "VDID": "VD-N1-S-83-O-NW-21-湖口",
+    "RoadName": "國道1號",
+    "LocationMile": "83K+800",
+    "PositionLat": "24.8764772",
+    "PositionLon": "121.0296067"
+  },
+  {
+    "VDID": "VD-N1-S-84.120-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "84K+120",
+    "PositionLat": "24.8749337",
+    "PositionLon": "121.0260494"
+  },
+  {
+    "VDID": "VD-N1-S-85.020-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "85K+020",
+    "PositionLat": "24.8710542",
+    "PositionLon": "121.0183203"
+  },
+  {
+    "VDID": "VD-N1-S-85.690-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "85K+690",
+    "PositionLat": "24.8665545",
+    "PositionLon": "121.0138251"
+  },
+  {
+    "VDID": "VD-N1-S-86-O-NW-1-湖口服務區",
+    "RoadName": "國道1號",
+    "LocationMile": "86K+500",
+    "PositionLat": "24.8591202",
+    "PositionLon": "121.0101345"
+  },
+  {
+    "VDID": "VD-N1-S-86-I-WS-1-湖口服務區",
+    "RoadName": "國道1號",
+    "LocationMile": "86K+500",
+    "PositionLat": "24.858553",
+    "PositionLon": "121.0103449"
+  },
+  {
+    "VDID": "VD-N1-S-86.520-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "86K+520",
+    "PositionLat": "24.859641",
+    "PositionLon": "121.0106519"
+  },
+  {
+    "VDID": "VD-N1-S-88.050-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "88K+050",
+    "PositionLat": "24.8486569",
+    "PositionLon": "121.0188707"
+  },
+  {
+    "VDID": "VD-N1-S-90.010-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "90K+010",
+    "PositionLat": "24.8319806",
+    "PositionLon": "121.0214311"
+  },
+  {
+    "VDID": "VD-N1-S-91-I-WS-1-竹北",
+    "RoadName": "國道1號",
+    "LocationMile": "91K+000",
+    "PositionLat": "24.822934",
+    "PositionLon": "121.0161338"
+  },
+  {
+    "VDID": "VD-N1-S-91-I-WS-21-竹北",
+    "RoadName": "國道1號",
+    "LocationMile": "91K+000",
+    "PositionLat": "24.8236722",
+    "PositionLon": "121.0161236"
+  },
+  {
+    "VDID": "VD-N1-S-91-O-NW-1-竹北",
+    "RoadName": "國道1號",
+    "LocationMile": "91K+000",
+    "PositionLat": "24.8258723",
+    "PositionLon": "121.0182975"
+  },
+  {
+    "VDID": "VD-N1-S-91-O-NW-21-竹北",
+    "RoadName": "國道1號",
+    "LocationMile": "91K+000",
+    "PositionLat": "24.8241855",
+    "PositionLon": "121.0165946"
+  },
+  {
+    "VDID": "VD-N1-S-91.180-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "91K+180",
+    "PositionLat": "24.8224145",
+    "PositionLon": "121.0163128"
+  },
+  {
+    "VDID": "VD-N1-S-91.700-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "91K+700",
+    "PositionLat": "24.8187722",
+    "PositionLon": "121.0141218"
+  },
+  {
+    "VDID": "VD-N1-S-93.040-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "93K+190",
+    "PositionLat": "24.8070211",
+    "PositionLon": "121.0100243"
+  },
+  {
+    "VDID": "VD-N1-S-93.750-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "93K+750",
+    "PositionLat": "24.8005012",
+    "PositionLon": "121.0089758"
+  },
+  {
+    "VDID": "VD-N1-S-95.210-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+210",
+    "PositionLat": "24.7879206",
+    "PositionLon": "121.0045595"
+  },
+  {
+    "VDID": "VD-N1-S-95-I-WS-21A-新竹-光復路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7900542",
+    "PositionLon": "121.0049054"
+  },
+  {
+    "VDID": "VD-N1-S-95-C-S-1A-新竹-公道五路-光復",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7919359",
+    "PositionLon": "121.0059956"
+  },
+  {
+    "VDID": "VD-N1-S-95-I-WS-22A-新竹-公道五路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7969263",
+    "PositionLon": "121.0078089"
+  },
+  {
+    "VDID": "VD-N1-S-95-I-WS-33A-新竹-公道五路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7978199",
+    "PositionLon": "121.0076524"
+  },
+  {
+    "VDID": "VD-N1-S-95-I-ES-22B-新竹-園區二路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7757227",
+    "PositionLon": "121.0032636"
+  },
+  {
+    "VDID": "VD-N1-S-95-I-WS-1B-新竹-園區二路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.775441",
+    "PositionLon": "121.0032315"
+  },
+  {
+    "VDID": "VD-N1-S-95-O-NW-22A-新竹",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7919485",
+    "PositionLon": "121.0058366"
+  },
+  {
+    "VDID": "VD-N1-S-95-O-NW-33A-新竹",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7910981",
+    "PositionLon": "121.0050675"
+  },
+  {
+    "VDID": "VD-N1-S-95-O-NW-1B-新竹",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7900553",
+    "PositionLon": "121.0051551"
+  },
+  {
+    "VDID": "VD-N1-S-95-O-NW-31A-新竹",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.798347",
+    "PositionLon": "121.0075942"
+  },
+  {
+    "VDID": "VD-N1-S-95-O-NW-21A-新竹",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.800101",
+    "PositionLon": "121.0085896"
+  },
+  {
+    "VDID": "VD-N1-S-95-O-NW-1A-新竹",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.8018726",
+    "PositionLon": "121.0089766"
+  },
+  {
+    "VDID": "VD-N1-S-95-I-ES-32A-新竹-光復路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7903805",
+    "PositionLon": "121.0051342"
+  },
+  {
+    "VDID": "VD-N1-S-95-O-NW-21B-新竹",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7818265",
+    "PositionLon": "121.0030383"
+  },
+  {
+    "VDID": "VD-N1-S-96.620-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "96K+620",
+    "PositionLat": "24.7754525",
+    "PositionLon": "121.0035405"
+  },
+  {
+    "VDID": "VD-N1-S-97.990-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "97K+990",
+    "PositionLat": "24.7640034",
+    "PositionLon": "120.9992916"
+  },
+  {
+    "VDID": "VD-N1-S-98.000-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "98K+000",
+    "PositionLat": "24.7637083",
+    "PositionLon": "120.9989713"
+  },
+  {
+    "VDID": "VD-N1-S-99-I-ES-新竹系統-3S1S",
+    "RoadName": "國道1號",
+    "LocationMile": "99K+400",
+    "PositionLat": "24.7572832",
+    "PositionLon": "120.9909976"
+  },
+  {
+    "VDID": "VD-N1-S-99-I-WS-新竹系統-3N1S",
+    "RoadName": "國道1號",
+    "LocationMile": "99K+400",
+    "PositionLat": "24.7573291",
+    "PositionLon": "120.9835423"
+  },
+  {
+    "VDID": "VD-N1-S-99.990-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "99K+990",
+    "PositionLat": "24.7532117",
+    "PositionLon": "120.9844197"
+  },
+  {
+    "VDID": "VD-N1-N-72.990-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "72K+990",
+    "PositionLat": "24.8949109",
+    "PositionLon": "121.1313827"
+  },
+  {
+    "VDID": "VD-N1-N-74.510-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "74K+510",
+    "PositionLat": "24.8930132",
+    "PositionLon": "121.1165825"
+  },
+  {
+    "VDID": "VD-N1-N-76.400-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "76K+400",
+    "PositionLat": "24.8901915",
+    "PositionLon": "121.0984842"
+  },
+  {
+    "VDID": "VD-N1-N-78.140-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "78K+140",
+    "PositionLat": "24.8845848",
+    "PositionLon": "121.0826243"
+  },
+  {
+    "VDID": "VD-N1-N-79.980-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "79K+980",
+    "PositionLat": "24.8777534",
+    "PositionLon": "121.0663011"
+  },
+  {
+    "VDID": "VD-N1-N-81.210-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "81K+210",
+    "PositionLat": "24.8760344",
+    "PositionLon": "121.054515"
+  },
+  {
+    "VDID": "VD-N1-N-83.590-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "83K+590",
+    "PositionLat": "24.876232",
+    "PositionLon": "121.0316023"
+  },
+  {
+    "VDID": "VD-N1-N-83-O-SE-1-湖口",
+    "RoadName": "國道1號",
+    "LocationMile": "83K+800",
+    "PositionLat": "24.8746719",
+    "PositionLon": "121.0267528"
+  },
+  {
+    "VDID": "VD-N1-N-83-O-SW-21-湖口",
+    "RoadName": "國道1號",
+    "LocationMile": "83K+800",
+    "PositionLat": "24.8752287",
+    "PositionLon": "121.0294625"
+  },
+  {
+    "VDID": "VD-N1-N-83-I-WN-22-湖口",
+    "RoadName": "國道1號",
+    "LocationMile": "83K+800",
+    "PositionLat": "24.8754184",
+    "PositionLon": "121.0298777"
+  },
+  {
+    "VDID": "VD-N1-N-83-I-EN-21-湖口",
+    "RoadName": "國道1號",
+    "LocationMile": "83K+800",
+    "PositionLat": "24.8753521",
+    "PositionLon": "121.0298919"
+  },
+  {
+    "VDID": "VD-N1-N-85.010-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "85K+010",
+    "PositionLat": "24.8708135",
+    "PositionLon": "121.0183156"
+  },
+  {
+    "VDID": "VD-N1-N-85.400-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "85K+400",
+    "PositionLat": "24.8686448",
+    "PositionLon": "121.0158232"
+  },
+  {
+    "VDID": "VD-N1-N-86.120-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "86K+120",
+    "PositionLat": "24.8630956",
+    "PositionLon": "121.0118823"
+  },
+  {
+    "VDID": "VD-N1-N-86-O-SE-1-湖口服務區",
+    "RoadName": "國道1號",
+    "LocationMile": "86K+500",
+    "PositionLat": "24.8594134",
+    "PositionLon": "121.0109486"
+  },
+  {
+    "VDID": "VD-N1-N-86-I-EN-1-湖口服務區",
+    "RoadName": "國道1號",
+    "LocationMile": "86K+500",
+    "PositionLat": "24.8641954",
+    "PositionLon": "121.0127724"
+  },
+  {
+    "VDID": "VD-N1-N-86-R-湖口服務區便道出口",
+    "RoadName": "國道1號",
+    "LocationMile": "86K+900",
+    "PositionLat": "24.859705",
+    "PositionLon": "121.012225"
+  },
+  {
+    "VDID": "VD-N1-N-88.050-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "88K+050",
+    "PositionLat": "24.8488552",
+    "PositionLon": "121.0188654"
+  },
+  {
+    "VDID": "VD-N1-N-89.990-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "89K+990",
+    "PositionLat": "24.8320248",
+    "PositionLon": "121.0215312"
+  },
+  {
+    "VDID": "VD-N1-N-90.840-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "90K+840",
+    "PositionLat": "24.8249702",
+    "PositionLon": "121.0181466"
+  },
+  {
+    "VDID": "VD-N1-N-91-I-EN-1-竹北",
+    "RoadName": "國道1號",
+    "LocationMile": "91K+000",
+    "PositionLat": "24.8242632",
+    "PositionLon": "121.0183403"
+  },
+  {
+    "VDID": "VD-N1-N-91-I-EN-21-竹北",
+    "RoadName": "國道1號",
+    "LocationMile": "91K+000",
+    "PositionLat": "24.8235925",
+    "PositionLon": "121.0182512"
+  },
+  {
+    "VDID": "VD-N1-N-91-O-SE-21-竹北",
+    "RoadName": "國道1號",
+    "LocationMile": "91K+000",
+    "PositionLat": "24.8229297",
+    "PositionLon": "121.0178241"
+  },
+  {
+    "VDID": "VD-N1-N-91-O-SE-1-竹北",
+    "RoadName": "國道1號",
+    "LocationMile": "91K+000",
+    "PositionLat": "24.8215907",
+    "PositionLon": "121.0161834"
+  },
+  {
+    "VDID": "VD-N1-N-91.800-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "91K+800",
+    "PositionLat": "24.8173768",
+    "PositionLon": "121.0135717"
+  },
+  {
+    "VDID": "VD-N1-N-92.000-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "92K+000",
+    "PositionLat": "24.8157404",
+    "PositionLon": "121.0127877"
+  },
+  {
+    "VDID": "VD-N1-N-92.900-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "92K+900",
+    "PositionLat": "24.8079087",
+    "PositionLon": "121.0103849"
+  },
+  {
+    "VDID": "VD-N1-N-94.030-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "94K+030",
+    "PositionLat": "24.7980323",
+    "PositionLon": "121.0085562"
+  },
+  {
+    "VDID": "VD-N1-N-95-I-WN-1A-新竹-公道五路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.8018434",
+    "PositionLon": "121.0095146"
+  },
+  {
+    "VDID": "VD-N1-N-95-I-EN-31A-新竹-公道五路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7976784",
+    "PositionLon": "121.0090927"
+  },
+  {
+    "VDID": "VD-N1-N-95-C-N-1A-新竹-公道五路-光復",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7980133",
+    "PositionLon": "121.0086553"
+  },
+  {
+    "VDID": "VD-N1-N-95-I-WN-22A-新竹-光復路-環道",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7889879",
+    "PositionLon": "121.0063321"
+  },
+  {
+    "VDID": "VD-N1-N-95-I-WN-33A-新竹-光復路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7894086",
+    "PositionLon": "121.0064688"
+  },
+  {
+    "VDID": "VD-N1-N-95-O-SE-22A-新竹-公道五路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.796321",
+    "PositionLon": "121.0083184"
+  },
+  {
+    "VDID": "VD-N1-N-95-O-SE-33A-新竹-公道五路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7971353",
+    "PositionLon": "121.0090243"
+  },
+  {
+    "VDID": "VD-N1-N-95-O-SE-1B-新竹-園區二路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7721356",
+    "PositionLon": "121.0036475"
+  },
+  {
+    "VDID": "VD-N1-N-95-O-SE-1A-新竹-光復路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7812086",
+    "PositionLon": "121.0037221"
+  },
+  {
+    "VDID": "VD-N1-N-95-O-SE-21A-新竹-光復路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7878587",
+    "PositionLon": "121.0050087"
+  },
+  {
+    "VDID": "VD-N1-N-95-O-SE-31A-新竹-光復路-竹東",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7891115",
+    "PositionLon": "121.0067552"
+  },
+  {
+    "VDID": "VD-N1-N-95-I-EN-1B-新竹-新安路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.78213",
+    "PositionLon": "121.0038659"
+  },
+  {
+    "VDID": "VD-N1-N-95-I-EN-21A-新竹-公道五路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7984859",
+    "PositionLon": "121.008983"
+  },
+  {
+    "VDID": "VD-N1-N-95-O-SE-21B-新竹-園區二路",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+400",
+    "PositionLat": "24.7751867",
+    "PositionLon": "121.0038822"
+  },
+  {
+    "VDID": "VD-N1-N-95.910-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "95K+910",
+    "PositionLat": "24.7816526",
+    "PositionLon": "121.0035284"
+  },
+  {
+    "VDID": "VD-N1-N-97.080-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "97K+080",
+    "PositionLat": "24.7711729",
+    "PositionLon": "121.0032816"
+  },
+  {
+    "VDID": "VD-N1-N-97.560-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "97K+560",
+    "PositionLat": "24.7670208",
+    "PositionLon": "121.0016764"
+  },
+  {
+    "VDID": "VD-N1-N-98.000-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "98K+000",
+    "PositionLat": "24.7635845",
+    "PositionLon": "120.9990742"
+  },
+  {
+    "VDID": "VD-N1-N-98.860-N-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "98K+860",
+    "PositionLat": "24.7603915",
+    "PositionLon": "120.991688"
+  },
+  {
+    "VDID": "VD-N1-N-99-I-WN-新竹系統-3N1N",
+    "RoadName": "國道1號",
+    "LocationMile": "99K+400",
+    "PositionLat": "24.7576162",
+    "PositionLon": "120.9835842"
+  },
+  {
+    "VDID": "VD-N1-N-99-I-EN-新竹系統-3S1N",
+    "RoadName": "國道1號",
+    "LocationMile": "99K+400",
+    "PositionLat": "24.7571434",
+    "PositionLon": "120.9914851"
+  },
+  {
+    "VDID": "VD-N3-S-81.850-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "81K+850",
+    "PositionLat": "24.8067002",
+    "PositionLon": "121.1468413"
+  },
+  {
+    "VDID": "VD-N3-S-83.750-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "83K+750",
+    "PositionLat": "24.7981398",
+    "PositionLon": "121.1307059"
+  },
+  {
+    "VDID": "VD-N3-S-85.010-M-RS",
+    "RoadName": "國道3號",
+    "LocationMile": "85K+010",
+    "PositionLat": "24.7884373",
+    "PositionLon": "121.1244247"
+  },
+  {
+    "VDID": "VD-N3-S-86.750-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "86K+750",
+    "PositionLat": "24.7794425",
+    "PositionLon": "121.1114567"
+  },
+  {
+    "VDID": "VD-N3-S-88.910-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "88K+910",
+    "PositionLat": "24.7754696",
+    "PositionLon": "121.0908777"
+  },
+  {
+    "VDID": "VD-N3-S-90-I-ES-22-竹林",
+    "RoadName": "國道3號",
+    "LocationMile": "90K+300",
+    "PositionLat": "24.7672426",
+    "PositionLon": "121.0794113"
+  },
+  {
+    "VDID": "VD-N3-S-90-I-WS-1-竹林",
+    "RoadName": "國道3號",
+    "LocationMile": "90K+300",
+    "PositionLat": "24.7669459",
+    "PositionLon": "121.0791174"
+  },
+  {
+    "VDID": "VD-N3-S-90-O-NW-21-竹林",
+    "RoadName": "國道3號",
+    "LocationMile": "90K+300",
+    "PositionLat": "24.7674956",
+    "PositionLon": "121.0814948"
+  },
+  {
+    "VDID": "VD-N3-S-90-O-NE-22-竹林",
+    "RoadName": "國道3號",
+    "LocationMile": "90K+300",
+    "PositionLat": "24.7677212",
+    "PositionLon": "121.0812109"
+  },
+  {
+    "VDID": "VD-N3-S-90.480-N-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "90K+480",
+    "PositionLat": "24.7653602",
+    "PositionLon": "121.0800071"
+  },
+  {
+    "VDID": "VD-N3-S-92.310-M-RS",
+    "RoadName": "國道3號",
+    "LocationMile": "92K+310",
+    "PositionLat": "24.7568529",
+    "PositionLon": "121.0650423"
+  },
+  {
+    "VDID": "VD-N3-S-94.000-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "94K+000",
+    "PositionLat": "24.7615837",
+    "PositionLon": "121.0495629"
+  },
+  {
+    "VDID": "VD-N3-S-96.340-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "96K+340",
+    "PositionLat": "24.7574067",
+    "PositionLon": "121.0290508"
+  },
+  {
+    "VDID": "VD-N3-S-96-O-NW-1-寶山休息站",
+    "RoadName": "國道3號",
+    "LocationMile": "96K+600",
+    "PositionLat": "24.7560073",
+    "PositionLon": "121.0263757"
+  },
+  {
+    "VDID": "VD-N3-S-96-I-WS-1-寶山休息站",
+    "RoadName": "國道3號",
+    "LocationMile": "96K+600",
+    "PositionLat": "24.7551639",
+    "PositionLon": "121.0242276"
+  },
+  {
+    "VDID": "VD-N3-S-97.350-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "97K+350",
+    "PositionLat": "24.7542629",
+    "PositionLon": "121.0197371"
+  },
+  {
+    "VDID": "VD-N3-S-97.770-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "97K+770",
+    "PositionLat": "24.7546233",
+    "PositionLon": "121.0160498"
+  },
+  {
+    "VDID": "VD-N3-S-98-I-WS-1-寶山",
+    "RoadName": "國道3號",
+    "LocationMile": "98K+800",
+    "PositionLat": "24.7573703",
+    "PositionLon": "121.003289"
+  },
+  {
+    "VDID": "VD-N3-S-98-O-NW-1-寶山",
+    "RoadName": "國道3號",
+    "LocationMile": "98K+800",
+    "PositionLat": "24.7568952",
+    "PositionLon": "121.0092791"
+  },
+  {
+    "VDID": "VD-N3-S-98-O-NW-21-寶山",
+    "RoadName": "國道3號",
+    "LocationMile": "98K+800",
+    "PositionLat": "24.7577278",
+    "PositionLon": "121.0064154"
+  },
+  {
+    "VDID": "VD-N3-S-99.000-N-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "99K+000",
+    "PositionLat": "24.7572598",
+    "PositionLon": "121.0042674"
+  },
+  {
+    "VDID": "VD-N3-S-99.630-M-RS",
+    "RoadName": "國道3號",
+    "LocationMile": "99K+630",
+    "PositionLat": "24.7560683",
+    "PositionLon": "120.9979187"
+  },
+  {
+    "VDID": "VD-N3-S-99.890-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "99K+890",
+    "PositionLat": "24.7557624",
+    "PositionLon": "120.9953701"
+  },
+  {
+    "VDID": "VD-N3-S-100-I-ES-新竹系統-1N3S",
+    "RoadName": "國道3號",
+    "LocationMile": "100K+800",
+    "PositionLat": "24.7593867",
+    "PositionLon": "120.9904913"
+  },
+  {
+    "VDID": "VD-N3-S-100-I-WS-新竹系統-1S3S",
+    "RoadName": "國道3號",
+    "LocationMile": "100K+800",
+    "PositionLat": "24.7591317",
+    "PositionLon": "120.9887705"
+  },
+  {
+    "VDID": "VD-N3-S-100.900-N-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "100K+900",
+    "PositionLat": "24.7580827",
+    "PositionLon": "120.9857949"
+  },
+  {
+    "VDID": "VD-N3-S-102.000-M-RS",
+    "RoadName": "國道3號",
+    "LocationMile": "102K+000",
+    "PositionLat": "24.7576998",
+    "PositionLon": "120.9750108"
+  },
+  {
+    "VDID": "VD-N3-S-102.150-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "102K+150",
+    "PositionLat": "24.7578782",
+    "PositionLon": "120.9729999"
+  },
+  {
+    "VDID": "VD-N3-S-103.650-N-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "103K+650",
+    "PositionLat": "24.7579459",
+    "PositionLon": "120.9590487"
+  },
+  {
+    "VDID": "VD-N3-S-103-I-WS-21-茄苳",
+    "RoadName": "國道3號",
+    "LocationMile": "103K+900",
+    "PositionLat": "24.7579156",
+    "PositionLon": "120.9568313"
+  },
+  {
+    "VDID": "VD-N3-S-103-O-NW-1-茄苳",
+    "RoadName": "國道3號",
+    "LocationMile": "103K+900",
+    "PositionLat": "24.7588492",
+    "PositionLon": "120.9615167"
+  },
+  {
+    "VDID": "VD-N3-S-103-I-WS-1-茄苳",
+    "RoadName": "國道3號",
+    "LocationMile": "103K+900",
+    "PositionLat": "24.7571481",
+    "PositionLon": "120.9560877"
+  },
+  {
+    "VDID": "VD-N3-S-103-O-NW-21-茄苳",
+    "RoadName": "國道3號",
+    "LocationMile": "103K+900",
+    "PositionLat": "24.7582686",
+    "PositionLon": "120.9580233"
+  },
+  {
+    "VDID": "VD-N3-S-105.150-M-RS",
+    "RoadName": "國道3號",
+    "LocationMile": "105K+150",
+    "PositionLat": "24.7531264",
+    "PositionLon": "120.9454896"
+  },
+  {
+    "VDID": "VD-N3-S-106.550-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "106K+550",
+    "PositionLat": "24.7516345",
+    "PositionLon": "120.9317525"
+  },
+  {
+    "VDID": "VD-N3-S-108.320-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "108K+320",
+    "PositionLat": "24.7403113",
+    "PositionLon": "120.9196537"
+  },
+  {
+    "VDID": "VD-N3-S-109-I-WS-1-香山",
+    "RoadName": "國道3號",
+    "LocationMile": "109K+600",
+    "PositionLat": "24.7322807",
+    "PositionLon": "120.9054157"
+  },
+  {
+    "VDID": "VD-N3-S-109-I-ES-22-香山",
+    "RoadName": "國道3號",
+    "LocationMile": "109K+600",
+    "PositionLat": "24.733482",
+    "PositionLon": "120.9064225"
+  },
+  {
+    "VDID": "VD-N3-S-109-O-NW-1-香山-台1線",
+    "RoadName": "國道3號",
+    "LocationMile": "109K+600",
+    "PositionLat": "24.7378582",
+    "PositionLon": "120.9145231"
+  },
+  {
+    "VDID": "VD-N3-S-109-O-NE-21-香山-台1線",
+    "RoadName": "國道3號",
+    "LocationMile": "109K+600",
+    "PositionLat": "24.7373636",
+    "PositionLon": "120.9125186"
+  },
+  {
+    "VDID": "VD-N3-S-110.150-N-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "110K+150",
+    "PositionLat": "24.7311949",
+    "PositionLon": "120.9048804"
+  },
+  {
+    "VDID": "VD-N3-N-81.800-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "81K+800",
+    "PositionLat": "24.8066539",
+    "PositionLon": "121.1472273"
+  },
+  {
+    "VDID": "VD-N3-N-83.400-M-RS",
+    "RoadName": "國道3號",
+    "LocationMile": "83K+400",
+    "PositionLat": "24.8003889",
+    "PositionLon": "121.133333"
+  },
+  {
+    "VDID": "VD-N3-N-85.010-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "85K+010",
+    "PositionLat": "24.7883609",
+    "PositionLon": "121.1245533"
+  },
+  {
+    "VDID": "VD-N3-N-85.990-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "85K+990",
+    "PositionLat": "24.7814234",
+    "PositionLon": "121.1184909"
+  },
+  {
+    "VDID": "VD-N3-N-88.480-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "88K+480",
+    "PositionLat": "24.7770722",
+    "PositionLon": "121.0947294"
+  },
+  {
+    "VDID": "VD-N3-N-89.600-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "89K+600",
+    "PositionLat": "24.7713832",
+    "PositionLon": "121.085673"
+  },
+  {
+    "VDID": "VD-N3-N-90.200-N-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "90K+200",
+    "PositionLat": "24.7672533",
+    "PositionLon": "121.0818264"
+  },
+  {
+    "VDID": "VD-N3-N-90-I-WN-21-竹林",
+    "RoadName": "國道3號",
+    "LocationMile": "90K+300",
+    "PositionLat": "24.7662486",
+    "PositionLon": "121.0825186"
+  },
+  {
+    "VDID": "VD-N3-N-90-I-EN-1-竹林",
+    "RoadName": "國道3號",
+    "LocationMile": "90K+300",
+    "PositionLat": "24.7668362",
+    "PositionLon": "121.0824353"
+  },
+  {
+    "VDID": "VD-N3-N-90-O-SE-21-竹林",
+    "RoadName": "國道3號",
+    "LocationMile": "90K+300",
+    "PositionLat": "24.7653651",
+    "PositionLon": "121.0817533"
+  },
+  {
+    "VDID": "VD-N3-N-90-O-SE-1-竹林",
+    "RoadName": "國道3號",
+    "LocationMile": "90K+300",
+    "PositionLat": "24.7652052",
+    "PositionLon": "121.0805951"
+  },
+  {
+    "VDID": "VD-N3-N-90.800-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "90K+800",
+    "PositionLat": "24.7631279",
+    "PositionLon": "121.0780467"
+  },
+  {
+    "VDID": "VD-N3-N-91.700-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "91K+700",
+    "PositionLat": "24.7583135",
+    "PositionLon": "121.0708652"
+  },
+  {
+    "VDID": "VD-N3-N-92.000-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "92K+000",
+    "PositionLat": "24.7573022",
+    "PositionLon": "121.068048"
+  },
+  {
+    "VDID": "VD-N3-N-93.990-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "93K+990",
+    "PositionLat": "24.7614397",
+    "PositionLon": "121.0495147"
+  },
+  {
+    "VDID": "VD-N3-N-95.110-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "95K+110",
+    "PositionLat": "24.7632357",
+    "PositionLon": "121.0390083"
+  },
+  {
+    "VDID": "VD-N3-N-96.350-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "96K+350",
+    "PositionLat": "24.7571867",
+    "PositionLon": "121.0290027"
+  },
+  {
+    "VDID": "VD-N3-N-96.990-M-RS",
+    "RoadName": "國道3號",
+    "LocationMile": "96K+990",
+    "PositionLat": "24.7545997",
+    "PositionLon": "121.0233637"
+  },
+  {
+    "VDID": "VD-N3-N-98.590-N-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "98K+590",
+    "PositionLat": "24.7568664",
+    "PositionLon": "121.0079473"
+  },
+  {
+    "VDID": "VD-N3-N-98-I-EN-21-寶山",
+    "RoadName": "國道3號",
+    "LocationMile": "98K+800",
+    "PositionLat": "24.7566293",
+    "PositionLon": "121.0063188"
+  },
+  {
+    "VDID": "VD-N3-N-98-I-EN-1-寶山",
+    "RoadName": "國道3號",
+    "LocationMile": "98K+800",
+    "PositionLat": "24.7566686",
+    "PositionLon": "121.0068184"
+  },
+  {
+    "VDID": "VD-N3-N-98-O-SE-1-寶山",
+    "RoadName": "國道3號",
+    "LocationMile": "98K+800",
+    "PositionLat": "24.7568226",
+    "PositionLon": "121.0035827"
+  },
+  {
+    "VDID": "VD-N3-N-99.540-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "99K+540",
+    "PositionLat": "24.7560459",
+    "PositionLon": "120.9986605"
+  },
+  {
+    "VDID": "VD-N3-N-99.890-M-RS",
+    "RoadName": "國道3號",
+    "LocationMile": "99K+890",
+    "PositionLat": "24.7556039",
+    "PositionLon": "120.9942498"
+  },
+  {
+    "VDID": "VD-N3-N-100.470-N-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "100K+470",
+    "PositionLat": "24.7566215",
+    "PositionLon": "120.9896559"
+  },
+  {
+    "VDID": "VD-N3-N-100-I-EN-新竹系統-1N3N",
+    "RoadName": "國道3號",
+    "LocationMile": "100K+800",
+    "PositionLat": "24.7556279",
+    "PositionLon": "120.9868205"
+  },
+  {
+    "VDID": "VD-N3-N-100-I-WN-新竹系統-1S3N",
+    "RoadName": "國道3號",
+    "LocationMile": "100K+800",
+    "PositionLat": "24.7553044",
+    "PositionLon": "120.9851429"
+  },
+  {
+    "VDID": "VD-N3-N-101.610-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "101K+610",
+    "PositionLat": "24.757829",
+    "PositionLon": "120.9788944"
+  },
+  {
+    "VDID": "VD-N3-N-102.380-M-RS",
+    "RoadName": "國道3號",
+    "LocationMile": "102K+380",
+    "PositionLat": "24.758074",
+    "PositionLon": "120.9712961"
+  },
+  {
+    "VDID": "VD-N3-N-103.700-N-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "103K+700",
+    "PositionLat": "24.7576081",
+    "PositionLon": "120.9586586"
+  },
+  {
+    "VDID": "VD-N3-N-103-I-WN-22-茄苳",
+    "RoadName": "國道3號",
+    "LocationMile": "103K+900",
+    "PositionLat": "24.7551204",
+    "PositionLon": "120.9559873"
+  },
+  {
+    "VDID": "VD-N3-N-103-O-SE-2-茄苳",
+    "RoadName": "國道3號",
+    "LocationMile": "103K+900",
+    "PositionLat": "24.7567273",
+    "PositionLon": "120.9579174"
+  },
+  {
+    "VDID": "VD-N3-N-103-O-SE-21-茄苳",
+    "RoadName": "國道3號",
+    "LocationMile": "103K+900",
+    "PositionLat": "24.7557156",
+    "PositionLon": "120.9568724"
+  },
+  {
+    "VDID": "VD-N3-N-103-O-SE-1-茄苳",
+    "RoadName": "國道3號",
+    "LocationMile": "103K+900",
+    "PositionLat": "24.7555752",
+    "PositionLon": "120.9548599"
+  },
+  {
+    "VDID": "VD-N3-N-103-I-EN-21-茄苳",
+    "RoadName": "國道3號",
+    "LocationMile": "103K+900",
+    "PositionLat": "24.7555004",
+    "PositionLon": "120.9571278"
+  },
+  {
+    "VDID": "VD-N3-N-105.150-M-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "105K+150",
+    "PositionLat": "24.7529862",
+    "PositionLon": "120.9453752"
+  },
+  {
+    "VDID": "VD-N3-N-106.510-M-RS",
+    "RoadName": "國道3號",
+    "LocationMile": "106K+510",
+    "PositionLat": "24.7516834",
+    "PositionLon": "120.9321902"
+  },
+  {
+    "VDID": "VD-N3-N-108.980-N-LOOP",
+    "RoadName": "國道3號",
+    "LocationMile": "108K+980",
+    "PositionLat": "24.7372696",
+    "PositionLon": "120.9140279"
+  },
+  {
+    "VDID": "VD-N3-N-109-I-EN-21-香山",
+    "RoadName": "國道3號",
+    "LocationMile": "109K+600",
+    "PositionLat": "24.736253",
+    "PositionLon": "120.9130982"
+  },
+  {
+    "VDID": "VD-N3-N-109-I-EN-1-香山",
+    "RoadName": "國道3號",
+    "LocationMile": "109K+600",
+    "PositionLat": "24.7364801",
+    "PositionLon": "120.9134175"
+  },
+  {
+    "VDID": "VD-N3-N-109-O-SE-1-香山-台13線",
+    "RoadName": "國道3號",
+    "LocationMile": "109K+600",
+    "PositionLat": "24.7299907",
+    "PositionLon": "120.9043448"
+  },
+  {
+    "VDID": "VD-N1H-S-71-O-楊梅休息站",
+    "RoadName": "國1高架",
+    "LocationMile": "71K+000",
+    "PositionLat": "24.89961",
+    "PositionLon": "121.1471406"
+  },
+  {
+    "VDID": "VD-N1H-S-71-I-楊梅休息站",
+    "RoadName": "國1高架",
+    "LocationMile": "71K+000",
+    "PositionLat": "24.899296",
+    "PositionLon": "121.146086"
+  },
+  {
+    "VDID": "VD-N1-S-101.510-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "101K+510",
+    "PositionLat": "24.743088",
+    "PositionLon": "120.97452"
+  },
+  {
+    "VDID": "VD-N1-S-102.600-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "102K+600",
+    "PositionLat": "24.735676",
+    "PositionLon": "120.967924"
+  },
+  {
+    "VDID": "VD-N1-S-103.670-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "103K+670",
+    "PositionLat": "24.72912",
+    "PositionLon": "120.959899"
+  },
+  {
+    "VDID": "VD-N1-S-104.890-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "104K+890",
+    "PositionLat": "24.727081",
+    "PositionLon": "120.94856"
+  },
+  {
+    "VDID": "VD-N1-S-105.985-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "105K+985",
+    "PositionLat": "24.725157",
+    "PositionLon": "120.937694"
+  },
+  {
+    "VDID": "VD-N1-S-107.220-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "107K+220",
+    "PositionLat": "24.716787",
+    "PositionLon": "120.930129"
+  },
+  {
+    "VDID": "VD-N1-S-109.250-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "109K+250",
+    "PositionLat": "24.700066",
+    "PositionLon": "120.92447"
+  },
+  {
+    "VDID": "VD-N1-N-101.510-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "101K+510",
+    "PositionLat": "24.74303",
+    "PositionLon": "120.974662"
+  },
+  {
+    "VDID": "VD-N1-N-102.590-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "102K+590",
+    "PositionLat": "24.7356",
+    "PositionLon": "120.968059"
+  },
+  {
+    "VDID": "VD-N1-N-103.880-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "103K+880",
+    "PositionLat": "24.728231",
+    "PositionLon": "120.958356"
+  },
+  {
+    "VDID": "VD-N1-N-105.160-M-LOOP",
+    "RoadName": "國道1號",
+    "LocationMile": "105K+160",
+    "PositionLat": "24.726889",
+    "PositionLon": "120.945892"
+  },
+  {
+    "VDID": "VD-N1-N-106.280-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "106K+280",
+    "PositionLat": "24.723714",
+    "PositionLon": "120.935565"
+  },
+  {
+    "VDID": "VD-N1-N-107.505-M-RS",
+    "RoadName": "國道1號",
+    "LocationMile": "107K+505",
+    "PositionLat": "24.714461",
+    "PositionLon": "120.929672"
+  }
+]

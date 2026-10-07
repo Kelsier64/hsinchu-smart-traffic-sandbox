@@ -6,6 +6,11 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 
 SOURCES = {
+    "official_proposal_173": ("https://smartsandbox.hsinchu.gov.tw/home/pageproposalcontent.html?ProposalSN=173", "official-proposal-173.html"),
+    "official_competition": ("https://smartsandbox.hsinchu.gov.tw/home/pagesmartsand.html", "official-competition.html"),
+    "official_how_to_play": ("https://smartsandbox.hsinchu.gov.tw/home/pagehowtoplay.html", "official-how-to-play.html"),
+    "official_news": ("https://smartsandbox.hsinchu.gov.tw/home/pagenews.html", "official-news.html"),
+    "official_wishpool": ("https://smartsandbox.hsinchu.gov.tw/home/pagewishpage.html", "official-wishpool.html"),
     "freeway_vd_static": ("https://tisvcloud.freeway.gov.tw/history/motc20/VD.xml", "vd-static.xml"),
     "freeway_history_catalog": ("https://tisvcloud.freeway.gov.tw/history-list.php", "history-catalog.html"),
     "freeway_m05_catalog": ("https://tisvcloud.freeway.gov.tw/history/TDCS/M05A/", "m05a-catalog.html"),

@@ -1,0 +1,89 @@
+[
+  {
+    "source": "freeway_m05_sample_day",
+    "url": "https://tisvcloud.freeway.gov.tw/history/TDCS/M05A/20261006/",
+    "fetched_at": "2026-10-07T03:52:06.279806+00:00",
+    "status": 200,
+    "bytes": 16481,
+    "content_type": "text/html;charset=UTF-8",
+    "saved_as": "m05a-day-catalog.html"
+  },
+  {
+    "source": "freeway_vdlive_catalog",
+    "url": "https://tisvcloud.freeway.gov.tw/history/motc20/VDLive/",
+    "fetched_at": "2026-10-07T03:52:06.350852+00:00",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "source": "freeway_etag_static",
+    "url": "https://tisvcloud.freeway.gov.tw/history/motc20/ETag.xml",
+    "fetched_at": "2026-10-07T03:52:06.392089+00:00",
+    "status": 200,
+    "bytes": 176075,
+    "content_type": "application/xml",
+    "saved_as": "etag-static.xml"
+  },
+  {
+    "source": "freeway_tdcs_manual",
+    "url": "https://tisvcloud.freeway.gov.tw/documents/TDCS%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Av41b.pdf",
+    "fetched_at": "2026-10-07T03:52:06.454772+00:00",
+    "status": 200,
+    "bytes": 575237,
+    "content_type": "application/pdf",
+    "saved_as": "tdcs-manual.pdf"
+  },
+  {
+    "source": "freeway_m04_catalog",
+    "url": "https://tisvcloud.freeway.gov.tw/history/TDCS/M04A/",
+    "fetched_at": "2026-10-07T03:55:32.997186+00:00",
+    "status": 200,
+    "bytes": 610104,
+    "content_type": "text/html;charset=UTF-8",
+    "saved_as": "m04a-catalog.html"
+  },
+  {
+    "source": "official_proposal_173",
+    "url": "https://smartsandbox.hsinchu.gov.tw/home/pageproposalcontent.html?ProposalSN=173",
+    "fetched_at": "2026-10-07T05:56:30.753164+00:00",
+    "status": 200,
+    "bytes": 10707,
+    "content_type": "text/html; charset=utf-8",
+    "saved_as": "official-proposal-173.html"
+  },
+  {
+    "source": "official_competition",
+    "url": "https://smartsandbox.hsinchu.gov.tw/home/pagesmartsand.html",
+    "fetched_at": "2026-10-07T05:56:30.867824+00:00",
+    "status": 200,
+    "bytes": 54332,
+    "content_type": "text/html; charset=utf-8",
+    "saved_as": "official-competition.html"
+  },
+  {
+    "source": "official_how_to_play",
+    "url": "https://smartsandbox.hsinchu.gov.tw/home/pagehowtoplay.html",
+    "fetched_at": "2026-10-07T05:56:30.957150+00:00",
+    "status": 200,
+    "bytes": 18868,
+    "content_type": "text/html; charset=utf-8",
+    "saved_as": "official-how-to-play.html"
+  },
+  {
+    "source": "official_news",
+    "url": "https://smartsandbox.hsinchu.gov.tw/home/pagenews.html",
+    "fetched_at": "2026-10-07T05:56:31.041052+00:00",
+    "status": 200,
+    "bytes": 6786,
+    "content_type": "text/html; charset=utf-8",
+    "saved_as": "official-news.html"
+  },
+  {
+    "source": "official_wishpool",
+    "url": "https://smartsandbox.hsinchu.gov.tw/home/pagewishpage.html",
+    "fetched_at": "2026-10-07T05:56:31.099647+00:00",
+    "status": 200,
+    "bytes": 10220,
+    "content_type": "text/html; charset=utf-8",
+    "saved_as": "official-wishpool.html"
+  }
+]
